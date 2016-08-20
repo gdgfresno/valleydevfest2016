@@ -3,7 +3,7 @@
     "title": "template-creator",
     "logos": [
       {
-        "name": "GDG Lviv",
+        "name": "GDG Fresno",
         "url": "https://plus.google.com/102444623953913144164",
         "logoUrl": "../images/logos/gdg-lviv.svg",
         "width": 170
@@ -14,34 +14,24 @@
     "title": "general-partner",
     "logos": [
       {
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/logos/google.svg"
+        "name": "GDG Fresno",
+        "url": "https://plus.google.com/+Gdgfresno/posts",
+        "logoUrl": "../images/logos/GDG_Fresno.svg"
       },
       {
-        "name": "GDG[x]",
+        "name": "GDG Visalia",
         "url": "https://github.com/gdg-x",
-        "logoUrl": "../images/logos/gdg-x.svg"
+        "logoUrl": "../images/logos/GDG_Visalia.svg"
       },
       {
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/logos/google.svg"
-      },
-      {
-        "name": "GDG[x]",
+        "name": "GDG Oakdale",
         "url": "https://github.com/gdg-x",
-        "logoUrl": "../images/logos/gdg-x.svg"
+        "logoUrl": "../images/logos/GDG_Oakdale.svg"
       },
       {
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/logos/google.svg"
-      },
-      {
-        "name": "GDG[x]",
+        "name": "GDG Modesto",
         "url": "https://github.com/gdg-x",
-        "logoUrl": "../images/logos/gdg-x.svg"
+        "logoUrl": "../images/logos/GDG_Modesto.png"
       },
       {
         "name": "Google",
@@ -49,24 +39,9 @@
         "logoUrl": "../images/logos/google.svg"
       },
       {
-        "name": "GDG[x]",
-        "url": "https://github.com/gdg-x",
-        "logoUrl": "../images/logos/gdg-x.svg"
-      },
-      {
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/logos/google.svg"
-      },
-      {
-        "name": "GDG[x]",
-        "url": "https://github.com/gdg-x",
-        "logoUrl": "../images/logos/gdg-x.svg"
-      },
-      {
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/logos/google.svg"
+        "name": "Bitwise",
+        "url": "https://bitwiseindustries.com/",
+        "logoUrl": "../images/logos/bitwise.png"
       }
     ]
   }
