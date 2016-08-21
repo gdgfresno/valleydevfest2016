@@ -169,15 +169,11 @@
   "teamPageText": "team-page-text",
   "statistics": [
     {
-      "counter": 600,
+      "counter": 350,
       "caption": "attendees"
     },
     {
-      "counter": 2,
-      "caption": "days"
-    },
-    {
-      "counter": 30,
+      "counter": 15,
       "caption": "sessions"
     },
     {
