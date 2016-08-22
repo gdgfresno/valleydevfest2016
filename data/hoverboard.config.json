@@ -73,7 +73,7 @@
       "permalink": "/team/"
     }
   ],
-  "url": "https://valleydevfest.firebaseapp.com/",
+  "url": "https://valleydevfest-620d6.firebaseapp.com/",
   "mailchimp": {
     "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
     "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
@@ -109,21 +109,6 @@
           "newTab": true
         }
       ]
-    },
-    {
-      "title": "for-partners",
-      "links": [
-        {
-          "text": "partnership-proposition",
-          "url": "http://bit.ly/df16-sponsor",
-          "newTab": true
-        },
-        {
-          "text": "media-kit",
-          "url": "http://bit.ly/df16-media",
-          "newTab": true
-        }
-      ]
     }
   ],
   "contactBlock": {
@@ -135,11 +120,11 @@
     ]
   },
   "tickets": {
-    "url": "http://2event.com/events/630032",
+    "url": "https://www.eventbrite.com/e/fresno-devfest-2015-tickets-18266248842",
     "elements": [
       {
         "name": "student-ticket",
-        "price": 10,
+        "price": 5,
         "currency": "$",
         "starts": "student-ticket-starts",
         "ends": "student-ticket-ends",
@@ -148,7 +133,7 @@
       },
       {
         "name": "early-ticket",
-        "price": 20,
+        "price": 10,
         "currency": "$",
         "starts": "early-ticket-starts",
         "ends": "early-ticket-ends",
@@ -157,10 +142,18 @@
       },
       {
         "name": "lazy-ticket",
-        "price": 40,
+        "price": 15,
         "currency": "$",
         "starts": "lazy-ticket-starts",
         "ends": "lazy-ticket-ends",
+        "soldOut": false
+      },
+      {
+        "name": "day-ticket",
+        "price": 20,
+        "currency": "$",
+        "starts": "day-ticket-starts",
+        "ends": "day-ticket-ends",
         "soldOut": false
       }
     ]
@@ -173,11 +166,11 @@
       "caption": "attendees"
     },
     {
-      "counter": 15,
+      "counter": 20,
       "caption": "sessions"
     },
     {
-      "counter": 3,
+      "counter": 4,
       "caption": "tracks"
     }
   ],
@@ -207,7 +200,7 @@
   },
   "location": {
     "apiKey": "",
-    "link": "https://www.facebook.com/expopivdennij",
+    "link": "http://bitwiseindustries.com/",
     "pointer": {
       "latitude": 36.7323747,
       "longitude": -119.7806278,

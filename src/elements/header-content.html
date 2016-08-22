@@ -130,13 +130,9 @@
           <div class="container">
             <div class="home-wrapper">
               <iron-image class="logo" src="/images/logo-light.svg" sizing="contain"
-                          alt="GDG DevFest Ukraine 2016"></iron-image>
+                          alt="ValleyDevFest 2016"></iron-image>
               <h3 class="dates">{{localize('dates')}}</h3>
               <h2 class="motto">{{localize('motto')}}</h2>
-              <div class="open-video" on-tap="_openVideo">
-                <iron-icon icon="play"></iron-icon>
-                {{localize('play-icon')}}
-              </div>
               <div class="action-buttons">
                 <paper-button class="primary" on-tap="_scrollToTickets" raised>{{localize('buy-ticket')}}</paper-button>
               </div>
@@ -200,8 +196,8 @@
         },
 
         _openVideo: function () {
-          HOVERBOARD.Elements.Template.openVideo('GDG DevFest Ukraine 2015', 'DfMnJAzOFng', true);
-          HOVERBOARD.Analytics.trackEvent('video', 'watch', 'GDG DevFest Ukraine 2015');
+          // HOVERBOARD.Elements.Template.openVideo('GDG DevFest Ukraine 2015', 'DfMnJAzOFng', true);
+          // HOVERBOARD.Analytics.trackEvent('video', 'watch', 'GDG DevFest Ukraine 2015');
         },
 
         _scrollToTickets: function () {
