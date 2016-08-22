@@ -4,8 +4,8 @@
     "logos": [
       {
         "name": "GDG Fresno",
-        "url": "https://plus.google.com/102444623953913144164",
-        "logoUrl": "../images/logos/gdg-lviv.svg",
+        "url": "https://plus.google.com/+Gdgfresno",
+        "logoUrl": "../images/logos/GDG_Fresno.svg",
         "width": 170
       }
     ]
@@ -15,22 +15,22 @@
     "logos": [
       {
         "name": "GDG Fresno",
-        "url": "https://plus.google.com/+Gdgfresno/posts",
+        "url": "http://www.meetup.com/googledevelopers/",
         "logoUrl": "../images/logos/GDG_Fresno.svg"
       },
       {
         "name": "GDG Visalia",
-        "url": "https://github.com/gdg-x",
+        "url": "http://www.meetup.com/GDG-Visalia-Google-Developer-Group/",
         "logoUrl": "../images/logos/GDG_Visalia.svg"
       },
       {
         "name": "GDG Oakdale",
-        "url": "https://github.com/gdg-x",
+        "url": "http://www.meetup.com/GDG-Oakdale/",
         "logoUrl": "../images/logos/GDG_Oakdale.svg"
       },
       {
         "name": "GDG Modesto",
-        "url": "https://github.com/gdg-x",
+        "url": "http://www.meetup.com/GDG-Modesto-Google-Developer-Group/",
         "logoUrl": "../images/logos/GDG_Modesto.png"
       },
       {
