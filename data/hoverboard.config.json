@@ -189,12 +189,12 @@
   ],
   "tweetsSource": "/data/tweets.json",
   "gallery": {
-    "albumUrl": "https://plus.google.com/events/gallery/cc6tosp4ohkp6qj9pg5jb4g6o3k?sort=1",
+    "albumUrl": "https://photos.google.com/share/AF1QipMB3ANn5xmJOD8sxRi5P5bdJk6CJj42ArkB5vIUEpulOHsW6-p9dBjlAXyuVjZEhA?key=WUN1UDBQT0pWeWJzUDRMLVBiNVJJNm50QmVQbFFB",
     "photos": {
-      "big": "/images/backgrounds/2015_1.jpg",
+      "big": "/images/backgrounds/gdg-devfest-2015-418.jpg",
       "small": [
-        "/images/backgrounds/2015_2.jpg",
-        "/images/backgrounds/2015_3.jpg"
+        "/images/backgrounds/gdg-devfest-2015-146.jpg",
+        "/images/backgrounds/gdg-devfest-2015-223.jpg"
       ]
     }
   },
@@ -211,9 +211,12 @@
       "longitude": -119.780780
     },
     "images": [
-      "/images/backgrounds/location_1.jpg",
-      "/images/backgrounds/location_2.jpg",
-      "/images/backgrounds/location_3.jpg"
+      "/images/backgrounds/location_hall.jpg",
+      "/images/backgrounds/location_geekwise.jpg",
+      "/images/backgrounds/location_donkeykong.jpg",
+      "/images/backgrounds/location_zelda.jpg",
+      "/images/backgrounds/location_halo.jpg",
+      "/images/backgrounds/location_simcity.jpg"
     ]
   },
   "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
