@@ -136,11 +136,20 @@
       <div class="card-wrapper">
         <paper-card class="card">
           <div class="header paper-card">
-            <div class="header-image" style$="background-image: url([[_currentImage]])"></div>
-            <div class="title-text">[[localize('location-title')]]</div>
+            <!--<div class="header-image" style$="background-image: url([[_currentImage]])"></div>-->
+            <div style="text-align:center">
+              <iframe
+                frameborder="0"
+                width="100%"
+                scrolling="no"
+                allowfullscreen    
+                src="/vrview.html?image=[[_currentImage]]&is_stereo=false">
+              </iframe>
+            </div>
           </div>
           <div class="paper-card-container">
             <div class="card-content list">
+              <div class="title-text">[[localize('location-title')]]</div>
               <paper-icon-item disabled>
                 <iron-icon icon="icons:feedback" item-icon></iron-icon>
                 <paper-item-body>[[localize('location-description')]]</paper-item-body>
@@ -229,7 +238,7 @@
             var that = this;
             setInterval(function () {
               that.nextImage();
-            }, 4000);
+            }, 30000);
           }
         },
 
