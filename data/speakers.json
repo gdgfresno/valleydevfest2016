@@ -55,7 +55,7 @@
         "id": 3,
         "featured": "true",
         "name": "Justin Ribeiro",
-        "title": "",
+        "title": "GDE and a GDG Mentor in North America Pacific Region",
         "company": "Stickman Ventures, Inc.",
         "companyLogo": "/images/logos/GDG_Oakdale.svg",
         "country": "",
@@ -70,7 +70,7 @@
         ],
         "badges": [
             {
-                "name": "GDE",
+                "name": "GDE, Coder and presenter",
                 "description": "Wearables, IoT Google Developer Expert",
                 "link": "https://developers.google.com/experts/people/justin-ribeiro.html"
             }
@@ -95,6 +95,47 @@
             "icon": "gplus",
             "link": "https://google.com/+justinribeiro",
             "name": "Google+"
+          }
+        ]
+    },
+    "4": {
+        "id": 4,
+        "featured": "true",
+        "name": "Murat Yener",
+        "title": "Android GDE, Android Geek, GDG Istambul co-organizer",
+        "company": "Intel Corporation",
+        "companyLogo": "/images/logos/Intel-logo.svg",
+        "country": "",
+        "photoUrl": "/images/people/murat_yener.jpg",
+        "shortBio": "A code geek, open source committer, conference speaker and Android Software Developer at Intel.",
+        "bio": "Experienced in developing Mobile (native/html5), Java, Web, Flex, GWT, JavaEE and OSGi applications besides teaching courses and mentoring. Eclipse committer in Eclipse Libra project. GDG Istanbul organizer since 2009 and a Conference Speaker.",
+        "tags": [
+            "Android",
+            "IoT",
+            "Wearables"
+        ],
+        "badges": [
+            {
+                "name": "Android GDE",
+                "description": "Android Google Developer Expert",
+                "link": "https://developers.google.com/experts/people/murat-yener.html"
+            }
+        ],
+        "socials": [
+          {
+            "icon": "gplus",
+            "link": "https://plus.google.com/114028338330916709688",
+            "name": "Google+"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/yenerm",
+            "name": "Twitter"
+          },
+          {
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/muratyener",
+            "name": "Linkedin"
           }
         ]
     }
