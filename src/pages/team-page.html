@@ -32,7 +32,6 @@
 
       .details-item {
         @apply(--layout-horizontal);
-        /*margin: 0 auto;*/
         padding-bottom: 32px;
       }
 
@@ -216,7 +215,8 @@
               <div class="member">
                 <paper-material class="card" cascaded>
                   <div class="header">
-                    <div class="photo" style="background-image: url('[[member.photoUrl]]')"></div>
+                    <iron-image src="[[member.photoUrl]]" class="photo placeholder-color" preload="" fade="" sizing="cover"></iron-image>
+                    <!--<div class="photo" style="background-image: url('[[member.photoUrl]]')"></div>-->
                   </div>
                   <div class="card-content">
                     <div class="name">[[member.name]]</div>
