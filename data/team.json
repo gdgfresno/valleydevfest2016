@@ -32,6 +32,23 @@
         "title": "GDG Fresno co-organizer, treasurer"
       },
       {
+        "name": "Nancy Mohamed",
+        "photoUrl": "/images/people/nancy_mohamed.jpg",
+        "socials": [
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/designerwiththeheadscarf",
+            "name": "Facebook"
+          },
+          {
+            "icon": "gplus",
+            "link": "https://plus.google.com/b/114769570436363155784/106036726594291409241",
+            "name": "Google+"
+          }
+        ],
+        "title": "GDG Fresno co-organizer, designer, women tech maker"
+      },
+      {
         "name": "Csaba Toth",
         "photoUrl": "/images/people/csaba_toth.jpg",
         "socials": [
@@ -52,23 +69,6 @@
           }
         ],
         "title": "GDG Fresno co-organizer, User Group junkie"
-      },
-      {
-        "name": "Nancy Mohamed",
-        "photoUrl": "/images/people/nancy_mohamed.jpg",
-        "socials": [
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/designerwiththeheadscarf",
-            "name": "Facebook"
-          },
-          {
-            "icon": "gplus",
-            "link": "https://plus.google.com/b/114769570436363155784/106036726594291409241",
-            "name": "Google+"
-          }
-        ],
-        "title": "GDG Fresno co-organizer, designer, women tech maker"
       }
     ]
   },
