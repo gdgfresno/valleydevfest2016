@@ -13,6 +13,12 @@
         "url": "http://www.meetup.com/googledevelopers/",
         "logoUrl": "../images/logos/GDG_Fresno.svg",
         "width": 170
+      },
+      {
+        "name": "Fresno City College",
+        "url": "http://fresnocitycollege.edu/",
+        "logoUrl": "../images/logos/fcc.jpg",
+        "width": 170
       }
     ]
   },
