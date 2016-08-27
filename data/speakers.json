@@ -1,7 +1,7 @@
 {
     "1": {
         "id": 1,
-        "featured": "true",
+        "featured": true,
         "name": "Sandeep Dinesh",
         "title": "Developer Advocate",
         "company": "Google",
@@ -28,7 +28,7 @@
     },
     "2": {
         "id": 2,
-        "featured": "true",
+        "featured": true,
         "name": "Martin Omander",
         "title": "Program Manager for Google Developer Relations",
         "company": "Google",
@@ -53,7 +53,7 @@
     },
     "3": {
         "id": 3,
-        "featured": "true",
+        "featured": true,
         "name": "Justin Ribeiro",
         "title": "GDE and a GDG Mentor in North America Pacific Region",
         "company": "Stickman Ventures, Inc.",
@@ -100,7 +100,7 @@
     },
     "4": {
         "id": 4,
-        "featured": "true",
+        "featured": true,
         "name": "Murat Yener",
         "title": "Android GDE, Android Geek, GDG Istambul co-organizer",
         "company": "Intel Corporation",
