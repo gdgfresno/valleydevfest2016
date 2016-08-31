@@ -54,6 +54,94 @@
     "3": {
         "id": 3,
         "featured": true,
+        "name": "Paul Bakaus",
+        "title": "Googler, AMP expert",
+        "company": "Google",
+        "companyLogo": "/images/logos/google.svg",
+        "country": "",
+        "photoUrl": "/images/people/paul_bakaus.jpg",
+        "shortBio": "Paul is a Web Developer Advocate at Google, and spends most of his time making the web fast and user friendly, currently by supporting the Accelerated Mobile Pages project.",
+        "bio": "Paul worked at Zynga before Google and his widest known creations are jQuery UI and Aves Engine. Currently he is workign on the Accelerated Mobile Pages project.",
+        "tags": [
+            "AMP",
+            "Chrome Dev Tools",
+            "PWA",
+            "Human perception"
+        ],
+        "badges": [
+        ],
+        "socials": [
+          {
+            "icon": "gplus",
+            "link": "http://plus.google.com/106129485759840435120",
+            "name": "Google+"
+          },
+          {
+            "icon": "website",
+            "link": "https://paulbakaus.com/",
+            "name": "Blog"
+          },
+          {
+            "icon": "github",
+            "link": "https://github.com/pbakaus",
+            "name": "Github"
+          },
+          {
+            "icon": "twitter",
+            "link": "http://twitter.com/pbakaus",
+            "name": "Twitter"
+          },
+          {
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/muratyener",
+            "name": "Linkedin"
+          }
+        ]
+    },
+    "4": {
+        "id": 4,
+        "featured": true,
+        "name": "Murat Yener",
+        "title": "Android GDE, Android Geek, GDG Istambul co-organizer",
+        "company": "Intel Corporation",
+        "companyLogo": "/images/logos/Intel-logo.svg",
+        "country": "",
+        "photoUrl": "/images/people/murat_yener.jpg",
+        "shortBio": "A code geek, open source committer, conference speaker and Android Software Developer at Intel.",
+        "bio": "Experienced in developing Mobile (native/html5), Java, Web, Flex, GWT, JavaEE and OSGi applications besides teaching courses and mentoring. Eclipse committer in Eclipse Libra project. GDG Istanbul organizer since 2009 and a Conference Speaker.",
+        "tags": [
+            "Android",
+            "IoT",
+            "Wearables"
+        ],
+        "badges": [
+            {
+                "name": "Android GDE",
+                "description": "Android Google Developer Expert",
+                "link": "https://developers.google.com/experts/people/murat-yener.html"
+            }
+        ],
+        "socials": [
+          {
+            "icon": "gplus",
+            "link": "https://plus.google.com/114028338330916709688",
+            "name": "Google+"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/yenerm",
+            "name": "Twitter"
+          },
+          {
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/muratyener",
+            "name": "Linkedin"
+          }
+        ]
+    },
+    "5": {
+        "id": 5,
+        "featured": true,
         "name": "Justin Ribeiro",
         "title": "GDE and a GDG Mentor in North America Pacific Region",
         "company": "Stickman Ventures, Inc.",
@@ -98,43 +186,74 @@
           }
         ]
     },
-    "4": {
-        "id": 4,
-        "featured": true,
-        "name": "Murat Yener",
-        "title": "Android GDE, Android Geek, GDG Istambul co-organizer",
-        "company": "Intel Corporation",
-        "companyLogo": "/images/logos/Intel-logo.svg",
+    "6": {
+        "id": 6,
+        "featured": false,
+        "name": "James Duvall IV",
+        "title": "Software Engineer, Speaker, GDG co-organizer",
+        "company": "Direct Technology",
+        "companyLogo": "/images/logos/GDG_Oakdale.svg",
         "country": "",
-        "photoUrl": "/images/people/murat_yener.jpg",
-        "shortBio": "A code geek, open source committer, conference speaker and Android Software Developer at Intel.",
-        "bio": "Experienced in developing Mobile (native/html5), Java, Web, Flex, GWT, JavaEE and OSGi applications besides teaching courses and mentoring. Eclipse committer in Eclipse Libra project. GDG Istanbul organizer since 2009 and a Conference Speaker.",
+        "photoUrl": "/images/people/justin_ribeiro.jpg",
+        "shortBio": "Build and hack on just about anything",
+        "bio": "A software engineer and co-organizer of the GDG Oakdale, Oakdale OpenMesh and his three daughters. With 10+ years of development experience, he works daily in .Net technologies, C#, and Chrome, building web applications that push the web to its limits.",
         "tags": [
-            "Android",
+            "Web",
             "IoT",
-            "Wearables"
+            "Chrome"
         ],
         "badges": [
-            {
-                "name": "Android GDE",
-                "description": "Android Google Developer Expert",
-                "link": "https://developers.google.com/experts/people/murat-yener.html"
-            }
         ],
         "socials": [
           {
-            "icon": "gplus",
-            "link": "https://plus.google.com/114028338330916709688",
-            "name": "Google+"
-          },
-          {
             "icon": "twitter",
-            "link": "https://twitter.com/yenerm",
+            "link": "https://twitter.com/jamesduvall",
             "name": "Twitter"
           },
           {
+            "icon": "gplus",
+            "link": "https://google.com/+JamesDuvallIV",
+            "name": "Google+"
+          }
+        ]
+    },
+    "7": {
+        "id": 7,
+        "featured": false,
+        "name": "Csaba Toth",
+        "title": "Universal software engineer (can tackle any problem), Speaker, User Group junkie",
+        "company": "WestShore Technologies Inc., Csaba Technology Services, LLC",
+        "companyLogo": "/images/logos/GDG_Fresno.svg",
+        "country": "",
+        "photoUrl": "/images/people/csaba_toth.jpg",
+        "shortBio": "Build and hack on just about anything",
+        "bio": "I'm a full stack developer in Fresno and a user group junkie. I was C/C++ CAD software developer in the past and I actively worked and working with .NET, Java and Python technology stacks including JS/HTML5/CSS front end (besides many).",
+        "tags": [
+            "WPA",
+            "GCP",
+            "Android"
+        ],
+        "badges": [
+        ],
+        "socials": [
+          {
+            "icon": "github",
+            "link": "https://github.com/MrCsabaToth",
+            "name": "Github"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/tocsa2",
+            "name": "Twitter"
+          },
+          {
+            "icon": "gplus",
+            "link": "https://google.com/CsabaTothMr",
+            "name": "Google+"
+          },
+          {
             "icon": "linkedin",
-            "link": "https://www.linkedin.com/in/muratyener",
+            "link": "https://www.linkedin.com/in/csabatothdev",
             "name": "Linkedin"
           }
         ]
