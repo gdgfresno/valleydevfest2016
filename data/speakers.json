@@ -194,8 +194,8 @@
         "company": "Direct Technology",
         "companyLogo": "/images/logos/GDG_Oakdale.svg",
         "country": "",
-        "photoUrl": "/images/people/justin_ribeiro.jpg",
-        "shortBio": "Build and hack on just about anything",
+        "photoUrl": "/images/people/james_duvall.jpg",
+        "shortBio": "Software Engineer, speaker, GDG Oakdale and Oakdale OpenMesh organizer",
         "bio": "A software engineer and co-organizer of the GDG Oakdale, Oakdale OpenMesh and his three daughters. With 10+ years of development experience, he works daily in .Net technologies, C#, and Chrome, building web applications that push the web to its limits.",
         "tags": [
             "Web",
@@ -226,8 +226,8 @@
         "companyLogo": "/images/logos/GDG_Fresno.svg",
         "country": "",
         "photoUrl": "/images/people/csaba_toth.jpg",
-        "shortBio": "Build and hack on just about anything",
-        "bio": "I'm a full stack developer in Fresno and a user group junkie. I was C/C++ CAD software developer in the past and I actively worked and working with .NET, Java and Python technology stacks including JS/HTML5/CSS front end (besides many).",
+        "shortBio": "All-round software engineer (can tackle any problem), speaker, organizer",
+        "bio": "Full stack developer in Fresno and a user group junkie. He was C/C++ CAD software developer in the past and actively worked and working with .NET, Java and Python technology stacks including JS/HTML5/CSS front end (besides many).",
         "tags": [
             "WPA",
             "GCP",
