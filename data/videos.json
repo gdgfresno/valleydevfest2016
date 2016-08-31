@@ -1,7 +1,19 @@
 [
   {
+    "youtubeId": "SOx1XfOjJPI",
+    "title": "AMP: Accelerated Mobile Pages with Paul Bakaus",
+    "speakers": "Paul Bakaus",
+    "thumbnail": "/images/sessions/106.jpg"
+  },
+  {
+    "youtubeId": "QeKwrdGr1sI",
+    "title": "Designing with Chrome DevTools from Paul Bakaus",
+    "speakers": "Paul Bakaus",
+    "thumbnail": "/images/sessions/107.jpg"
+  },
+  {
     "youtubeId": "F6z-30_knXY",
-    "title": "Intel on Android: Nexus Player, Tools, NDK and beyond... ",
+    "title": "Intel on Android: Nexus Player, Tools, NDK and beyond...",
     "speakers": "Murat Yener",
     "thumbnail": "/images/sessions/104.jpg"
   },
