@@ -120,15 +120,33 @@
     ]
   },
   "tickets": {
-    "url": "https://www.eventbrite.com/e/fresno-devfest-2015-tickets-18266248842",
+    "url": "https://www.eventbrite.com/e/valleydevfestcom-gdg-devfest-season-2016-tickets-27337601502 ",
     "elements": [
       {
-        "name": "student-ticket",
+        "name": "student-early-ticket",
         "price": 5,
         "currency": "$",
-        "starts": "student-ticket-starts",
-        "ends": "student-ticket-ends",
-        "info": "student-ticket-info",
+        "starts": "student-early-ticket-starts",
+        "ends": "student-early-ticket-ends",
+        "info": "student-early-ticket-info",
+        "soldOut": false
+      },
+      {
+        "name": "student-late-ticket",
+        "price": 10,
+        "currency": "$",
+        "starts": "student-late-ticket-starts",
+        "ends": "student-late-ticket-ends",
+        "info": "student-late-ticket-info",
+        "soldOut": false
+      },
+      {
+        "name": "student-day-ticket",
+        "price": 15,
+        "currency": "$",
+        "starts": "student-day-ticket-starts",
+        "ends": "student-day-ticket-ends",
+        "info": "student-day-ticket-info",
         "soldOut": false
       },
       {
