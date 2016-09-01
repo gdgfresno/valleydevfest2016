@@ -44,6 +44,11 @@
         "name": "Bitwise",
         "url": "https://bitwiseindustries.com/",
         "logoUrl": "../images/logos/bitwise.png"
+      },
+      {
+        "name": "Fresno Ideaworks",
+        "url": "https://fresnoideaworks.org/",
+        "logoUrl": "../images/logos/ideaworks-logo-invert.png"
       }
     ]
   }
