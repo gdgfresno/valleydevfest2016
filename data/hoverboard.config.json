@@ -202,12 +202,7 @@
       "longitude": -119.780780
     },
     "images": [
-      "/images/backgrounds/location_hall.jpg",
-      "/images/backgrounds/location_geekwise.jpg",
-      "/images/backgrounds/location_donkeykong.jpg",
-      "/images/backgrounds/location_zelda.jpg",
-      "/images/backgrounds/location_halo.jpg",
-      "/images/backgrounds/location_simcity.jpg"
+      "/images/backgrounds/location_hall.jpg"
     ]
   },
   "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
