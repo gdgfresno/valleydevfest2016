@@ -22,7 +22,7 @@
             {
                 "icon": "gplus",
                 "name": "Google+",
-                "link": "https://plus.google.com/u/0/106298452631478443711/posts"
+                "link": "//plus.google.com/u/0/106298452631478443711/posts"
             }
         ]
     },
@@ -47,7 +47,7 @@
             {
                 "icon": "gplus",
                 "name": "Google+",
-                "link": "https://plus.google.com/u/0/+MartinOmander"
+                "link": "//plus.google.com/u/0/+MartinOmander"
             }
         ]
     },
@@ -78,12 +78,12 @@
           },
           {
             "icon": "website",
-            "link": "https://paulbakaus.com/",
+            "link": "//paulbakaus.com/",
             "name": "Blog"
           },
           {
             "icon": "github",
-            "link": "https://github.com/pbakaus",
+            "link": "//github.com/pbakaus",
             "name": "Github"
           },
           {
@@ -93,7 +93,7 @@
           },
           {
             "icon": "linkedin",
-            "link": "https://www.linkedin.com/in/muratyener",
+            "link": "//www.linkedin.com/in/muratyener",
             "name": "Linkedin"
           }
         ]
@@ -118,23 +118,23 @@
             {
                 "name": "Android GDE",
                 "description": "Android Google Developer Expert",
-                "link": "https://developers.google.com/experts/people/murat-yener.html"
+                "link": "//developers.google.com/experts/people/murat-yener.html"
             }
         ],
         "socials": [
           {
             "icon": "gplus",
-            "link": "https://plus.google.com/114028338330916709688",
+            "link": "//plus.google.com/114028338330916709688",
             "name": "Google+"
           },
           {
             "icon": "twitter",
-            "link": "https://twitter.com/yenerm",
+            "link": "//twitter.com/yenerm",
             "name": "Twitter"
           },
           {
             "icon": "linkedin",
-            "link": "https://www.linkedin.com/in/muratyener",
+            "link": "//www.linkedin.com/in/muratyener",
             "name": "Linkedin"
           }
         ]
@@ -160,28 +160,28 @@
             {
                 "name": "GDE, Coder and presenter",
                 "description": "Wearables, IoT Google Developer Expert",
-                "link": "https://developers.google.com/experts/people/justin-ribeiro.html"
+                "link": "//developers.google.com/experts/people/justin-ribeiro.html"
             }
         ],
         "socials": [
           {
             "icon": "github",
-            "link": "https://github.com/justinribeiro",
+            "link": "//github.com/justinribeiro",
             "name": "Github"
           },
           {
             "icon": "twitter",
-            "link": "https://twitter.com/justinribeiro",
+            "link": "//twitter.com/justinribeiro",
             "name": "Twitter"
           },
           {
             "icon": "website",
-            "link": "https://www.justinribeiro.com/",
+            "link": "//www.justinribeiro.com/",
             "name": "Blog"
           },
           {
             "icon": "gplus",
-            "link": "https://google.com/+justinribeiro",
+            "link": "//google.com/+justinribeiro",
             "name": "Google+"
           }
         ]
@@ -207,12 +207,12 @@
         "socials": [
           {
             "icon": "twitter",
-            "link": "https://twitter.com/jamesduvall",
+            "link": "//twitter.com/jamesduvall",
             "name": "Twitter"
           },
           {
             "icon": "gplus",
-            "link": "https://google.com/+JamesDuvallIV",
+            "link": "//google.com/+JamesDuvallIV",
             "name": "Google+"
           }
         ]
@@ -238,22 +238,22 @@
         "socials": [
           {
             "icon": "github",
-            "link": "https://github.com/MrCsabaToth",
+            "link": "//github.com/MrCsabaToth",
             "name": "Github"
           },
           {
             "icon": "twitter",
-            "link": "https://twitter.com/tocsa2",
+            "link": "//twitter.com/tocsa2",
             "name": "Twitter"
           },
           {
             "icon": "gplus",
-            "link": "https://google.com/CsabaTothMr",
+            "link": "//google.com/CsabaTothMr",
             "name": "Google+"
           },
           {
             "icon": "linkedin",
-            "link": "https://www.linkedin.com/in/csabatothdev",
+            "link": "//www.linkedin.com/in/csabatothdev",
             "name": "Linkedin"
           }
         ]

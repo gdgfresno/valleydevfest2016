@@ -73,12 +73,12 @@
       "permalink": "/team/"
     }
   ],
-  "url": "https://valleydevfest-620d6.firebaseapp.com/",
+  "url": "//valleydevfest.com/",
   "mailchimp": {
-    "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
+    "url": "//gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
     "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
   },
-  "partnershipProposition": "https://drive.google.com/open?id=0BzLFnuknQsvsSmFTT29DRnZYV1U",
+  "partnershipProposition": "//drive.google.com/open?id=0BzLFnuknQsvsSmFTT29DRnZYV1U",
   "disqusShortName": "hoverboard-gdg-x",
   "languages": [
     {
@@ -100,7 +100,7 @@
         },
         {
           "text": "google-developers",
-          "url": "https://developers.google.com/",
+          "url": "//developers.google.com/",
           "newTab": true
         },
         {
@@ -120,7 +120,7 @@
     ]
   },
   "tickets": {
-    "url": "www.bit.ly/ValleyDevFest2016Tickets",
+    "url": "//www.bit.ly/ValleyDevFest2016Tickets",
     "elements": [
       {
         "name": "early-ticket",
@@ -170,22 +170,22 @@
     {
       "name": "gplus",
       "nickname": "+Gdgfresno",
-      "url": "https://plus.google.com/+Gdgfresno/posts"
+      "url": "//plus.google.com/+Gdgfresno/posts"
     },
     {
       "name": "facebook",
       "nickname": "gdgfresno",
-      "url": "https://www.facebook.com/gdgfresno/"
+      "url": "//www.facebook.com/gdgfresno/"
     },
     {
       "name": "website",
       "nickname": "googledevelopers",
-      "url": "https://www.meetup.com/googledevelopers/"
+      "url": "//www.meetup.com/googledevelopers/"
     }
   ],
   "tweetsSource": "/data/tweets.json",
   "gallery": {
-    "albumUrl": "https://photos.google.com/share/AF1QipMB3ANn5xmJOD8sxRi5P5bdJk6CJj42ArkB5vIUEpulOHsW6-p9dBjlAXyuVjZEhA?key=WUN1UDBQT0pWeWJzUDRMLVBiNVJJNm50QmVQbFFB",
+    "albumUrl": "//photos.google.com/share/AF1QipMB3ANn5xmJOD8sxRi5P5bdJk6CJj42ArkB5vIUEpulOHsW6-p9dBjlAXyuVjZEhA?key=WUN1UDBQT0pWeWJzUDRMLVBiNVJJNm50QmVQbFFB",
     "photos": {
       "big": "/images/backgrounds/gdg-devfest-2015-418.jpg",
       "small": [
@@ -210,7 +210,7 @@
       "/images/backgrounds/location_hall.jpg"
     ]
   },
-  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
+  "videosSessionsUrl": "//www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
   "callToAction": {
     "videoTitle": "action-title",
     "videoId": "8cnykM7UAy8"
