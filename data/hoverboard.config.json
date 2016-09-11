@@ -168,14 +168,19 @@
   "hashtag": "DevFest",
   "social": [
     {
-      "name": "meetup",
-      "nickname": "GDGFresno",
-      "url": "https://www.meetup.com/googledevelopers/"
+      "name": "gplus",
+      "nickname": "+Gdgfresno",
+      "url": "https://plus.google.com/+Gdgfresno/posts"
     },
     {
-      "name": "gplus",
-      "nickname": "102444623953913144164",
-      "url": "https://plus.google.com/+Gdgfresno/posts"
+      "name": "facebook",
+      "nickname": "gdgfresno",
+      "url": "https://www.facebook.com/gdgfresno/"
+    },
+    {
+      "name": "website",
+      "nickname": "googledevelopers",
+      "url": "https://www.meetup.com/googledevelopers/"
     }
   ],
   "tweetsSource": "/data/tweets.json",
