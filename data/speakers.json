@@ -73,7 +73,7 @@
         "socials": [
           {
             "icon": "gplus",
-            "link": "http://plus.google.com/106129485759840435120",
+            "link": "//plus.google.com/106129485759840435120",
             "name": "Google+"
           },
           {
@@ -88,12 +88,12 @@
           },
           {
             "icon": "twitter",
-            "link": "http://twitter.com/pbakaus",
+            "link": "//twitter.com/pbakaus",
             "name": "Twitter"
           },
           {
             "icon": "linkedin",
-            "link": "//www.linkedin.com/in/muratyener",
+            "link": "//www.linkedin.com/in/paulbakaus",
             "name": "Linkedin"
           }
         ]
