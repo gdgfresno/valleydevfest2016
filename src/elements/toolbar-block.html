@@ -99,12 +99,12 @@
             </template>
           </paper-tabs>
           <div class="action-button-wrapper" layout horizontal center-center>
-            <a href$="[[app.data.tshirts.url]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyTshirtClick">
+            <a href$="[[app.data.tshirts.url]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyTshirtClick" title="[[localize('buy-tooltip')]]">
               <paper-button class="action-button">[[localize('buy-t-shirt')]]</paper-button>
             </a>
           </div>
           <div class="action-button-wrapper" layout horizontal center-center>
-            <a href$="[[app.data.tickets.url]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyTicketClick">
+            <a href$="[[app.data.tickets.url]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyTicketClick" title="[[localize('buy-tooltip')]]">
               <paper-button class="action-button">[[localize('buy-ticket')]]</paper-button>
             </a>
           </div>
