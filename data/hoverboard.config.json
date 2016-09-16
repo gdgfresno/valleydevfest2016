@@ -123,6 +123,15 @@
     "url": "//www.bit.ly/ValleyDevFest2016Tickets",
     "elements": [
       {
+        "name": "tee-ticket",
+        "price": 23,
+        "currency": "$",
+        "starts": "tee-ticket-starts",
+        "ends": "tee-ticket-ends",
+        "info": "tee-ticket-info",
+        "soldOut": false
+      },
+      {
         "name": "early-ticket",
         "price": 10,
         "currency": "$",
