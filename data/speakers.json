@@ -47,7 +47,7 @@
             {
                 "icon": "gplus",
                 "name": "Google+",
-                "link": "//plus.google.com/u/0/+MartinOmander"
+                "link": "//plus.google.com/+MartinOmander"
             }
         ]
     },
@@ -256,6 +256,56 @@
             "link": "//www.linkedin.com/in/csabatothdev",
             "name": "Linkedin"
           }
+        ]
+    },
+    "8": {
+        "id": 8,
+        "featured": false,
+        "name": "Todd McLeod",
+        "title": "CIT Profesor, Speaker, Go advocate",
+        "company": "",
+        "companyLogo": "/images/logos/fcc_logo_wordmark.png.svg",
+        "country": "",
+        "photoUrl": "/images/people/todd_mcleod.jpg",
+        "shortBio": "CIT Profesor, Speaker",
+        "bio": "Todd McLeod is tenured faculty at Fresno City College and also work at California State University Fresno. Recent areas of focus include Go, Python, Java, Android, and Git.",
+        "tags": [
+            "Go",
+            "AppEngine"
+        ],
+        "badges": [
+        ],
+        "socials": [
+          {
+            "icon": "gplus",
+            "link": "//plus.google.com/+ToddMcLeod",
+            "name": "Google+"
+          }
+        ]
+    },
+    "9": {
+        "id": 9,
+        "featured": true,
+        "name": "Nilay Yener",
+        "title": "Program Manager for Google Developer Relations",
+        "company": "Google",
+        "companyLogo": "/images/logos/google.svg",
+        "country": "",
+        "photoUrl": "/images/people/nilay_yener.jpg",
+        "shortBio": "Nilay helps a lot for GDGs in North America and all around the world.",
+        "bio": ".",
+        "tags": [
+            "General",
+            "GDGs"
+        ],
+        "badges": [
+        ],
+        "socials": [
+            {
+                "icon": "gplus",
+                "name": "Google+",
+                "link": "//plus.google.com/+NilayCoşkunYener"
+            }
         ]
     }
 }
