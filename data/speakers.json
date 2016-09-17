@@ -38,7 +38,7 @@
         "shortBio": "Martin helps a lot for GDGs in North America and all around the world. He is a great coder and father too.",
         "bio": "Alignment: Lawful Good",
         "tags": [
-            "Everything Google",
+            "General",
             "GDGs"
         ],
         "badges": [
@@ -229,8 +229,8 @@
         "shortBio": "All-round software engineer (can tackle any problem), speaker, organizer",
         "bio": "Full stack developer in Fresno and a user group junkie. He was C/C++ CAD software developer in the past and actively worked and working with .NET, Java and Python technology stacks including JS/HTML5/CSS front end (besides many).",
         "tags": [
-            "WPA",
-            "GCP",
+            "Progressive Web Apps",
+            "Compute Engine",
             "Android"
         ],
         "badges": [
