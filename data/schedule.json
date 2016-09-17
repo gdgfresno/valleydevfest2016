@@ -16,49 +16,34 @@
         ]
     }, {
         "startTime": "10:00",
-        "endTime": "10:15",
+        "endTime": "11:00",
         "sessions": [
             [102]
         ]
     }, {
-        "startTime": "10:15",
-        "endTime": "11:00",
+        "startTime": "11:00",
+        "endTime": "12:00",
         "sessions": [
             [103]
         ]
     }, {
-        "startTime": "11:00",
-        "endTime": "11:40",
+        "startTime": "12:00",
+        "endTime": "13:00",
         "sessions": [
         ]
     }, {
-        "startTime": "11:50",
-        "endTime": "12:30",
-        "sessions": [
-        ]
-    }, {
-        "startTime": "12:30",
+        "startTime": "13:00",
         "endTime": "14:00",
         "sessions": [
         ]
     }, {
         "startTime": "14:00",
-        "endTime": "14:40",
-        "sessions": [
-        ]
-    }, {
-        "startTime": "14:50",
-        "endTime": "15:30",
-        "sessions": [
-        ]
-    }, {
-        "startTime": "15:30",
-        "endTime": "16:00",
+        "endTime": "15:00",
         "sessions": [
         ]
     }, {
         "startTime": "16:00",
-        "endTime": "16:40",
+        "endTime": "17:00",
         "sessions": [
         ]
     }]
