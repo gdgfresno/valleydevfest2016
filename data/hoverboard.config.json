@@ -137,7 +137,6 @@
         "currency": "$",
         "starts": "early-ticket-starts",
         "ends": "early-ticket-ends",
-        "info": "early-ticket-info",
         "soldOut": false
       },
       {
