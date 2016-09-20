@@ -59,6 +59,7 @@
         "bio": ".",
         "tags": [
             "General",
+            "Community",
             "GDGs"
         ],
         "badges": [
@@ -136,7 +137,9 @@
         "bio": "Alignment: Lawful Good",
         "tags": [
             "General",
-            "GDGs"
+            "Community",
+            "GDGs",
+            "Firebase"
         ],
         "badges": [
         ],
@@ -360,6 +363,37 @@
     },
     "12": {
         "id": 12,
+        "featured": false,
+        "name": "Derek Payton",
+        "title": "Software Developer and CTO",
+        "company": "Edit, LLC",
+        "companyLogo": "/images/logos/GDG_Fresno.svg",
+        "country": "",
+        "photoUrl": "/images/people/derek_payton.jpg",
+        "shortBio": "Derek is a software developer, Open Source contributor, community organizer, and shameless Python fanboy.",
+        "bio": "Derek built his first web page when he was 11 years old. The web has come a long way since 1998, and so has he. He first picked up Python in 2007 and hasn’t put it down since. He’s built dozens of websites and applications with Django, including sites for companies like DC Shoes, Sony, and Alpinestars. He’s built exactly one Android app before and would love to build more, except for that whole Java thing. He’s currently a Software Developer and CTO at Edit, LLC in Fresno, and organizes Fresno Python and Fresno Hack Night.",
+        "tags": [
+            "Python",
+            "Android",
+            "Community"
+        ],
+        "badges": [
+        ],
+        "socials": [
+          {
+            "icon": "github",
+            "link": "//github.com/dmpayton",
+            "name": "Github"
+          },
+          {
+            "icon": "twitter",
+            "link": "//twitter.com/dmpayton",
+            "name": "Twitter"
+          }
+        ]
+    },
+    "13": {
+        "id": 13,
         "featured": false,
         "name": "Todd McLeod",
         "title": "CIT Profesor, Speaker, Go advocate",
