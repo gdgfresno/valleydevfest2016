@@ -1,19 +1,61 @@
 {
-    "103": {
-        "id": 103,
-        "title": "TBD3",
-        "description": "Nullam porta eros eget lacinia ullamcorper. Maecenas tempor euismod purus vitae pharetra. Quisque sit amet massa augue. Praesent eleifend sodales gravida. Sed laoreet, ipsum eget tristique pulvinar, quam velit molestie urna, in porttitor quam lacus vitae velit. Donec in dictum dolor, id dapibus est. Nulla eu leo et elit pharetra accumsan.",
-        "speakers": [
-            2
-        ],
-        "language": "English",
-        "complexity": "Intermediate",
-        "tags": [
-            "Android"
-        ]
+    "101": {
+        "id": 101,
+        "title": "Registration & morning coffee + donuts",
+        "description": "Get your badge, coffee, enjoy socializing with your peers",
+        "image": "/images/backgrounds/morning.jpg"
     },
     "102": {
         "id": 102,
+        "title": "Opening, then Keynote by Paul Bakaus",
+        "description": "Official start of the conference. Greetings from the organizers, sponsors and partners. Keynote by Paul Bakaus",
+        "image": "/images/backgrounds/opening.jpg"
+    },
+    "103": {
+        "id": 103,
+        "title": "Lunch",
+        "description": "Foooooooood!",
+        "image": "/images/backgrounds/lunch.jpg"
+    },
+    "104": {
+        "id": 104,
+        "title": "Conference closing and contest winners announcements",
+        "description": "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
+        "image": "/images/backgrounds/closing.jpg"
+    },
+    "105": {
+        "id": 105,
+        "title": "Afterparty & Networking",
+        "description": "Afterparty is a great time to have some fun and meet new people",
+        "image": "/images/backgrounds/party.jpg"
+    },
+    "106": {
+        "id": 106,
+        "title": "TBD",
+        "description": "."
+    },
+    "107": {
+        "id": 107,
+        "title": "TBD",
+        "description": "."
+    },
+    "108": {
+        "id": 108,
+        "title": "TBD",
+        "description": "."
+    },
+    "109": {
+        "id": 109,
+        "title": "TBD",
+        "description": "."
+    },
+    "110": {
+        "id": 110,
+        "title": "Build and Battle",
+        "description": "Learn Arduino, program you own low cost sumo bot and compete with each other. Engage in other maker activities."
+    },
+    "111": {
+        "id": 111,
         "title": "TBD2",
         "description": "Donec maximus felis nunc, a tincidunt nibh tristique at. Cras eget ultricies turpis. Praesent non tristique massa, non suscipit lorem. Morbi vulputate massa sit amet orci feugiat, pretium sodales metus faucibus. Sed auctor lectus sed ipsum eleifend euismod. Nullam tempor lectus vel dictum tincidunt. Ut rhoncus finibus odio in rhoncus. Proin eu nisl eu ante scelerisque ullamcorper. Integer vulputate vel justo ut rhoncus. Aliquam non leo porttitor ipsum molestie ultrices eget vel turpis. Vivamus feugiat risus enim, nec ultricies metus iaculis id. Duis ut blandit sem, efficitur commodo metus. Nam porta purus eget tempor vehicula.",
         "speakers": [
@@ -25,8 +67,8 @@
             "Cloud"
         ]
     },
-    "101": {
-        "id": 101,
+    "112": {
+        "id": 112,
         "title": "TBD",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum diam eu congue pharetra. Morbi laoreet lorem tincidunt felis bibendum, vitae posuere purus suscipit. Aliquam erat volutpat. Nam cursus erat sed tellus finibus mollis. Suspendisse placerat auctor eros, a semper lacus luctus quis. Quisque vel neque id erat accumsan facilisis. Donec quis ante quam. Praesent porta, ipsum et blandit pretium, elit neque finibus mi, fringilla aliquet nisl odio ullamcorper urna. Donec ullamcorper dui ac ante viverra lacinia. Morbi a leo sagittis, laoreet ipsum sit amet, fringilla nunc. Curabitur auctor eget arcu a tempus. Nulla in congue dui. Duis at ultricies tortor. Nunc aliquam odio eu risus pretium, a ornare lorem varius.",
         "speakers": [
