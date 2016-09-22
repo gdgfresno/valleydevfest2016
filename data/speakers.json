@@ -172,6 +172,11 @@
                 "name": "Android GDE",
                 "description": "Android Google Developer Expert",
                 "link": "//developers.google.com/experts/people/murat-yener.html"
+            },
+            {
+                "name": "Java Champion",
+                "description": "Highest Honor in the Java Developer Realm",
+                "link": "//blogs.oracle.com/java/new-java-champion:-murat-yener"
             }
         ],
         "socials": [
@@ -189,6 +194,11 @@
             "icon": "linkedin",
             "link": "//www.linkedin.com/in/muratyener",
             "name": "Linkedin"
+          },
+          {
+            "icon": "website",
+            "link": "//muratyener.com/",
+            "name": "Blog"
           }
         ]
     },
@@ -283,7 +293,7 @@
         "bio": "Walter is a software developer with an interest in web development and some more esoteric things like emulator development. He has worked with many technology stacks such as Go, Python, Rust, AWS, and GCP to build scalable applications for the modern web.",
         "tags": [
             "Compute Engine",
-            "AppEngine"
+            "App Engine"
         ],
         "badges": [
         ],
@@ -405,7 +415,7 @@
         "bio": "Todd McLeod is tenured faculty at Fresno City College and also work at California State University Fresno. Recent areas of focus include Go, Python, Java, Android, and Git.",
         "tags": [
             "Go",
-            "AppEngine"
+            "App Engine"
         ],
         "badges": [
         ],
