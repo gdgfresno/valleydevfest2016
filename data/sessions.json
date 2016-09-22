@@ -7,9 +7,12 @@
     },
     "102": {
         "id": 102,
-        "title": "Opening, then Keynote by Paul Bakaus",
-        "description": "Official start of the conference. Greetings from the organizers, sponsors and partners. Keynote by Paul Bakaus",
-        "image": "/images/backgrounds/opening.jpg"
+        "title": "Opening, then Keynote by Paul Bakaus about Human perception",
+        "description": "Official start of the conference. Greetings from the organizers, sponsors and partners. Learning surprising facts about human perception by special session of Paul Bakaus",
+        "image": "/images/backgrounds/opening.jpg",
+        "speakers": [
+
+        ]
     },
     "103": {
         "id": 103,
@@ -54,30 +57,142 @@
         "title": "Build and Battle",
         "description": "Learn Arduino, program you own low cost sumo bot and compete with each other. Engage in other maker activities."
     },
+
     "111": {
         "id": 111,
-        "title": "TBD2",
-        "description": "Donec maximus felis nunc, a tincidunt nibh tristique at. Cras eget ultricies turpis. Praesent non tristique massa, non suscipit lorem. Morbi vulputate massa sit amet orci feugiat, pretium sodales metus faucibus. Sed auctor lectus sed ipsum eleifend euismod. Nullam tempor lectus vel dictum tincidunt. Ut rhoncus finibus odio in rhoncus. Proin eu nisl eu ante scelerisque ullamcorper. Integer vulputate vel justo ut rhoncus. Aliquam non leo porttitor ipsum molestie ultrices eget vel turpis. Vivamus feugiat risus enim, nec ultricies metus iaculis id. Duis ut blandit sem, efficitur commodo metus. Nam porta purus eget tempor vehicula.",
+        "title": "Snakes on a Droid",
+        "description": "In this talk we’ll get our feet wet with developing Android apps in Python using Kivy. We’ll start with a brief intro to Python and discuss why you might want to build Android apps in Python. Then we’ll dive into Kivy by looking at examples of Kivy applications, followed by building our own \"hello world\" app. Finally, we'll compile our app into an APK and demo it in the Android emulator.",
         "speakers": [
-            1
+            12
         ],
-        "language": "English",
-        "complexity": "Beginner",
+        "complexity": "Intermediate",
         "tags": [
-            "Cloud"
+            "Android",
+            "Python"
         ]
     },
     "112": {
         "id": 112,
-        "title": "TBD",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum diam eu congue pharetra. Morbi laoreet lorem tincidunt felis bibendum, vitae posuere purus suscipit. Aliquam erat volutpat. Nam cursus erat sed tellus finibus mollis. Suspendisse placerat auctor eros, a semper lacus luctus quis. Quisque vel neque id erat accumsan facilisis. Donec quis ante quam. Praesent porta, ipsum et blandit pretium, elit neque finibus mi, fringilla aliquet nisl odio ullamcorper urna. Donec ullamcorper dui ac ante viverra lacinia. Morbi a leo sagittis, laoreet ipsum sit amet, fringilla nunc. Curabitur auctor eget arcu a tempus. Nulla in congue dui. Duis at ultricies tortor. Nunc aliquam odio eu risus pretium, a ornare lorem varius.",
+        "title": "Android and the Seven Dwarfs",
+        "description": "Android is a great OS and it's Java based programming environment has offered an easy learning curve, great adaptation but also brought its own pitfalls and problems. The httpclient shipped with android is buggy and outdated, Java's programming model does not encourage developers to use separate threads for non-ui related tasks, use of anonymous inner classes for listeners create a burden and ugly code and of course this list goes on. This talk will focus on seven great open source libraries which do fix Android's programming model, the way jquery fixes javascript. The libraries will be covered with example code, advantages, disadvantages, internals and when to use them.",
         "speakers": [
-            1
+            6
         ],
-        "language": "English",
-        "complexity": "Beginner",
+        "complexity": "Intermediate",
+        "tags": [
+            "Android",
+            "Libraries",
+            "Frameworks",
+            "Tooling"
+        ]
+    },
+    "113": {
+        "id": 113,
+        "title": "The fault in our Apps: Android Design Patterns",
+        "description": "In 1994, the famous Gang of Four, published their book \"Design Patterns: Elements of Reusable Object-Oriented Software\" and since then any developer who wants to look cool and respected is obligated to use them in their daily chats. Actually it is more than that, Design Patterns are decades of collective wisdom to provide solutions for common problems in software. Android makes heavy use of design patterns both internally and at the SDK level. This talk will focus on classical GoF design patterns and how they can be implemented on Android as well as covering patterns which are specific to Android and mobile software ecosystem.",
+        "speakers": [
+            6
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Android",
+            "General",
+            "Architecture",
+            "GoF"
+        ]
+    },
+    "114": {
+        "id": 114,
+        "title": "OpenJDK for the a'N'droidlings",
+        "description": "The day has come, finally with version N, Android moved to OpenJDK from the old rusty \"Harmony\" based friend. With the move to OpenJDK finally aNdroid finally has access to many new language features lambdas, streams, default methods on interfaces and many more. You have listened all those features in Java talks for years, this time come and watch  how the new language features and invoke dynamics will change your aNdroid world.",
+        "speakers": [
+            6
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Android",
+            "OpenJDK",
+            "Byte code",
+            "InvokeDynamic"
+        ]
+    },
+    "115": {
+        "id": 115,
+        "title": "50 Shades of Android Studio",
+        "description": "After years of Eclipse experience does Android Studio inflict you pain? Don't worry! Android Studio is getting better than ever each day! Whether you are a seasoned IntelliJ developer or an Eclipse veteran, Android Studio had many hidden features and gems which can unleash your true potential. This session will cover many tips, tricks and techniques varying from shortcuts, best practices, writing gradle and intellij plugins.",
+        "speakers": [
+            6
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Android",
+            "Eclipse",
+            "Maven",
+            "IntelliJ",
+            "Gradle"
+        ]
+    },
+
+    "121": {
+        "id": 121,
+        "title": "Go",
+        "description": "Stay tuned",
+        "speakers": [
+            13
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Go"
+        ]
+    },
+    "122": {
+        "id": 122,
+        "title": "App Engine",
+        "description": "Stay tuned",
+        "speakers": [
+            13
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "App Engine",
+            "GAE",
+            "Cloud"
+        ]
+    },
+    "123": {
+        "id": 123,
+        "title": "TBD",
+        "description": "Stay tuned",
+        "speakers": [
+            4
+        ],
+        "complexity": "Intermediate",
         "tags": [
             "Cloud"
+        ]
+    },
+    "124": {
+        "id": 124,
+        "title": "TBD",
+        "description": "Stay tuned",
+        "speakers": [
+            4
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Cloud"
+        ]
+    },
+    "125": {
+        "id": 125,
+        "title": "TBD",
+        "description": "Stay tuned",
+        "speakers": [
+            5
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Firebase"
         ]
     }
 }
