@@ -3,34 +3,40 @@
         "id": 101,
         "title": "Registration & morning coffee + donuts",
         "description": "Get your badge, coffee, enjoy socializing with your peers",
-        "image": "/images/backgrounds/morning.jpg"
+        "image": "/images/backgrounds/morning.jpg",
+        "colspan": true
     },
     "102": {
         "id": 102,
         "title": "Opening, then Keynote by Paul Bakaus about Human perception",
         "description": "Official start of the conference. Greetings from the organizers, sponsors and partners. Learning surprising facts about human perception by special session of Paul Bakaus",
         "image": "/images/backgrounds/opening.jpg",
+        "colspan": true,
         "speakers": [
-
+            14,
+            1
         ]
     },
     "103": {
         "id": 103,
         "title": "Lunch",
         "description": "Foooooooood!",
-        "image": "/images/backgrounds/lunch.jpg"
+        "image": "/images/backgrounds/lunch.jpg",
+        "colspan": true
     },
     "104": {
         "id": 104,
         "title": "Conference closing and contest winners announcements",
         "description": "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
-        "image": "/images/backgrounds/closing.jpg"
+        "image": "/images/backgrounds/closing.jpg",
+        "colspan": true
     },
     "105": {
         "id": 105,
         "title": "Afterparty & Networking",
         "description": "Afterparty is a great time to have some fun and meet new people",
-        "image": "/images/backgrounds/party.jpg"
+        "image": "/images/backgrounds/party.jpg",
+        "colspan": true
     },
     "106": {
         "id": 106,
@@ -194,5 +200,137 @@
         "tags": [
             "Firebase"
         ]
+    },
+
+    "131": {
+        "id": 131,
+        "title": "Progressive Web App in the Wild",
+        "description": "We'll look at the big picture related to Progressive Web Apps and take a look at a real world project. We'll see advanatges and disadvantages, and even touch technologies as NFC and Bluetooth LE.",
+        "speakers": [
+            11
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Progressive Web Apps",
+            "NFC",
+            "BLE"
+        ]
+    },
+    "132": {
+        "id": 132,
+        "title": "What the Font?",
+        "description": "Integrating common Machine Learning techniques within a Progressive Web App.",
+        "speakers": [
+            10
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Progressive Web Apps",
+            "Machine Learning"
+        ]
+    },
+    "133": {
+        "id": 133,
+        "title": "Developing Multi-Tenant Applications on GCP and App Engine",
+        "description": "Stay Tuned...",
+        "speakers": [
+            9
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "App Engine",
+            "GAE",
+            "Compute Engine",
+            "Cloud"
+        ]
+    },
+    "134": {
+        "id": 134,
+        "title": "AMP",
+        "description": "Stay Tuned...",
+        "speakers": [
+            15
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "AMP"
+        ]
+    },
+    "135": {
+        "id": 135,
+        "title": "TBD",
+        "description": "Stay Tuned...",
+        "speakers": [
+            7
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "General"
+        ]
+    },
+    "136": {
+        "id": 136,
+        "title": "DevTools",
+        "description": "Stay Tuned...",
+        "speakers": [
+            8
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Chrome Dev Tools"
+        ]
+    },
+
+    "141": {
+        "id": 141,
+        "title": "AMP",
+        "description": "Stay tuned.",
+        "speakers": [
+            1
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "AMP",
+            "Web",
+            "Progressive Web Apps"
+        ]
+    },
+    "142": {
+        "id": 142,
+        "title": "The Wonder Web",
+        "description": "Optimizing the Web for Super Performance.",
+        "speakers": [
+            3
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Web",
+            "UX"
+        ]
+    },
+    "143": {
+        "id": 143,
+        "title": "TBD",
+        "description": "Stay Tuned...",
+        "speakers": [
+            7
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "General"
+        ]
+    },
+    "144": {
+        "id": 144,
+        "title": "TBD",
+        "description": "Stay Tuned...",
+        "speakers": [
+            7
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "General"
+        ]
     }
+
 }
