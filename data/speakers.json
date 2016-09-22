@@ -426,5 +426,61 @@
             "name": "Google+"
           }
         ]
+    },
+    "14": {
+        "id": 14,
+        "featured": false,
+        "name": "Rio Waller",
+        "title": "Educator, GDG leader and motivational speaker",
+        "company": "Fresno City College",
+        "companyLogo": "/images/logos/fcc_logo_wordmark.png",
+        "country": "",
+        "photoUrl": "/images/people/rio_waller.jpg",
+        "shortBio": "...",
+        "bio": "...",
+        "tags": [
+            "Community",
+            "General",
+            "Google"
+        ],
+        "badges": [
+        ],
+        "socials": [
+          {
+            "icon": "gplus",
+            "link": "//plus.google.com/+RioWaller",
+            "name": "Google+"
+          },
+          {
+            "icon": "twitter",
+            "link": "//twitter.com/riowaller",
+            "name": "Twitter"
+          }
+        ]
+    },
+    "15": {
+        "id": 15,
+        "featured": false,
+        "name": "Jim Hutton",
+        "title": "Software Engineer, GDG leader",
+        "company": "",
+        "companyLogo": "/images/logos/GDG_Modesto.svg",
+        "country": "",
+        "photoUrl": "/images/people/jim_hutton.jpg",
+        "shortBio": "...",
+        "bio": "...",
+        "tags": [
+            "AMP",
+            "Web"
+        ],
+        "badges": [
+        ],
+        "socials": [
+          {
+            "icon": "gplus",
+            "link": "//plus.google.com/+JimHutson",
+            "name": "Google+"
+          }
+        ]
     }
 }
