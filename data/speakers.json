@@ -76,9 +76,9 @@
         "id": 3,
         "featured": true,
         "name": "Laura Krake",
-        "title": "Program Manager for Google Developer Relations",
-        "company": "Google",
-        "companyLogo": "/images/logos/GDG_Oakdale.svg",
+        "title": "Illustrator and Graphic Designer",
+        "company": "Stickman Ventures",
+        "companyLogo": "/images/logos/stickman_ventures.png",
         "country": "",
         "photoUrl": "/images/people/laura_krake.jpg",
         "shortBio": "Graphic Designer and Illustrator determined to enhance UI/UX.",
@@ -94,6 +94,11 @@
                 "icon": "linkedin",
                 "name": "LinkedIn",
                 "link": "//www.linkedin.com/in/laura-krake-b7636199"
+            },
+            {
+                "icon": "twitter",
+                "link": "//twitter.com/LauraKrake",
+                "name": "Twitter"
             }
         ]
     },
@@ -114,7 +119,6 @@
             "Firebase"
         ],
         "badges": [
-
         ],
         "socials": [
             {
@@ -206,7 +210,7 @@
         "id": 7,
         "featured": false,
         "name": "Justin Ribeiro",
-        "title": "GDE and a GDG Mentor in North America Pacific Region",
+        "title": "GDE and GDG Mentor in North America Pacific Region",
         "company": "Stickman Ventures, Inc.",
         "companyLogo": "/images/logos/GDG_Oakdale.svg",
         "country": "",
@@ -286,7 +290,7 @@
         "name": "Walter Kuppens",
         "title": "Software Engineer experienced in cloud technologies.",
         "company": "Stickman Ventures, Inc.",
-        "companyLogo": "/images/logos/GDG_Oakdale.svg",
+        "companyLogo": "/images/logos/stickman_ventures.png",
         "country": "",
         "photoUrl": "/images/people/walter_kuppens.jpg",
         "shortBio": "Passionate Software developer, wants to know why things work.",
@@ -311,7 +315,7 @@
         "name": "Paul Perrone",
         "title": "Software Enginner and graduate student",
         "company": "Stickman Ventures, Inc.",
-        "companyLogo": "/images/logos/GDG_Oakdale.svg",
+        "companyLogo": "/images/logos/stickman_ventures.png",
         "country": "",
         "photoUrl": "/images/people/paul_perrone.jpg",
         "shortBio": "Data Analyst Enraptured with Machine Learning, Literature, and Video Games",
@@ -377,7 +381,7 @@
         "name": "Derek Payton",
         "title": "Software Developer and CTO",
         "company": "Edit, LLC",
-        "companyLogo": "/images/logos/GDG_Fresno.svg",
+        "companyLogo": "/images/logos/edit_llc.png",
         "country": "",
         "photoUrl": "/images/people/derek_payton.jpg",
         "shortBio": "Derek is a software developer, Open Source contributor, community organizer, and shameless Python fanboy.",
