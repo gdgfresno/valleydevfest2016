@@ -6,15 +6,28 @@
         "image": "/images/backgrounds/morning.jpg",
         "colspan": true
     },
+    "116": {
+        "id": 116,
+        "title": "Opening",
+        "description": "Official start of the conference. Greetings from the organizers, sponsors and partners",
+        "image": "/images/backgrounds/coffee-break.jpg",
+        "colspan": true,
+        "speakers": [
+            14
+        ]
+    },
     "102": {
         "id": 102,
-        "title": "Opening, then Keynote by Paul Bakaus about Human perception",
-        "description": "Official start of the conference. Greetings from the organizers, sponsors and partners. Learning surprising facts about human perception by special session of Paul Bakaus",
+        "title": "Keynote: Illusion of Speed",
+        "description": "If you could take a 50% hit in real world performance and get a site that feels 50% faster, would you? Nobody cares how fast your site is. All your users care about is how fast your site feels. Going beyond the perceived perf theory, Paul is bringing a bunch of examples of things that employ clever tricks and psychology to turn things that should be slow into things that feel incredibly fast.",
         "image": "/images/backgrounds/opening.jpg",
         "colspan": true,
         "speakers": [
-            14,
             1
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "General"
         ]
     },
     "103": {
@@ -283,8 +296,8 @@
 
     "141": {
         "id": 141,
-        "title": "AMP",
-        "description": "Stay tuned.",
+        "title": "From AMP to PWA",
+        "description": "Accelerated Mobile Pages (AMP) delivers outstanding page-load performance for users browsing content on the mobile web, which is hugely important on limited or flaky networks. Progressive Web Apps (PWA) deliver reliable performance for re-visits to sites thanks to Service Workers and allows unprecedented engagement via push notifications and the App Shell architecture. AMP gets content in front of users fast - PWAs enable rich experiences and engagement. What if I told you there’s a way to utilize the unique power of both? To build a web experience that loads in an instant and upgrades you to maximum interactivity and engagement? We’re making it happen. Come to learn how.",
         "speakers": [
             1
         ],

@@ -20,6 +20,12 @@
         ]
     }, {
         "startTime": "09:00",
+        "endTime": "9:20",
+        "sessions": [
+            [116]
+        ]
+    }, {
+        "startTime": "09:20",
         "endTime": "10:00",
         "sessions": [
             [102]
