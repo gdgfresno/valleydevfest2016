@@ -129,7 +129,7 @@
         "starts": "tee-ticket-starts",
         "ends": "tee-ticket-ends",
         "info": "tee-ticket-info",
-        "soldOut": false
+        "soldOut": true
       },
       {
         "name": "early-ticket",
