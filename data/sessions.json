@@ -42,7 +42,10 @@
         "title": "Conference closing and contest winners announcements",
         "description": "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
         "image": "/images/backgrounds/closing.jpg",
-        "colspan": true
+        "colspan": true,
+        "speakers": [
+            14
+        ]
     },
     "105": {
         "id": 105,
