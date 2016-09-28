@@ -59,6 +59,32 @@
         background: #FFFFFF;
       }
 
+      .video-item {
+        @apply(--layout);
+        padding-right: 24px;
+        width: 100%;
+        min-width: 100%;
+      }
+
+      .thumbnail {
+        @apply(--layout-fit);
+      }
+
+      .play-video {
+        @apply(--layout-fit);
+        @apply(--layout-vertical);
+        @apply(--layout-center-center);
+        margin: 0 auto;
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.15);
+      }
+
+      .play-icon {
+        --iron-icon-width: 48px;
+        --iron-icon-height: 48px;
+        --iron-icon-fill-color: #fff;
+      }
+
       paper-icon-item {
         --paper-item-disabled-color: inherit;
       }
@@ -101,6 +127,15 @@
         .card {
           min-width: 400px;
         }
+
+        .video-item {
+          width: 400px;
+          min-width: 400px;
+        }
+
+        .video-item:hover paper-card {
+          @apply(--shadow-elevation-2dp);
+        }
       }
 
       @media (min-width: 961px) {
@@ -137,9 +172,22 @@
       <div class="card-wrapper">
         <paper-card class="card">
           <div class="header paper-card">
-            <vr-view
-              url="[[_currentImage]]"
-            ></vr-view>
+            <div class="video-item">
+              <paper-card class="card">
+                <div class="header paper-card">
+                  <iron-image
+                    class="thumbnail"
+                    src="[[app.data.location.video.thumbnail]]"
+                    placeholder="[[app.data.location.video.thumbnail]]"
+                    sizing="cover"
+                    preload fade
+                  ></iron-image>
+                  <div class="play-video" on-tap="_playVideo">
+                    <iron-icon class="play-icon" icon="icons:play"></iron-icon>
+                  </div>
+                </div>
+              </paper-card>
+            </div>
             <div class="title-text">[[localize('location-title')]]</div>
           </div>
           <div class="paper-card-container">
@@ -163,6 +211,13 @@
                  rel="noopener noreferrer"
               >
                 <paper-icon-button icon="icons:directions"></paper-icon-button>
+              </a>
+              <a class="bottom-link"
+                 href$="//gdgfresno.github.io/BWSS360tour"
+                 target="_blank"
+                 rel="noopener noreferrer"
+              >
+                <paper-icon-button icon="icons:cardboard"></paper-icon-button>
               </a>
             </div>
           </div>
@@ -217,36 +272,21 @@
             value: 0
           },
 
-          _currentImage: {
-            type: String
-          }
         },
 
         observers: [
-          'setImages(app.data.location.images)'
+          'setVideo(app.data.location.video)'
         ],
 
-        setImages: function (images) {
-          if (!images) return;
-          this.images = images;
-          this._currentImage = this.images[this._currentSourceIndex];
-          if (this.images.length > 1) {
-            var that = this;
-            setInterval(function () {
-              that.nextImage();
-            }, 30000);
-          }
+        setVideo: function (video) {
+          this.video = video;
         },
 
-        previousImage: function () {
-          this._currentSourceIndex = (this._currentSourceIndex > 0) ? this._currentSourceIndex - 1 : this.images.length - 1;
-          this._currentImage = this.images[this._currentSourceIndex];
-        },
+        _playVideo: function (e) {
+          HOVERBOARD.Elements.Template.openVideo(this.video.title, this.video.youtubeId, true);
 
-        nextImage: function () {
-          this._currentSourceIndex = (this._currentSourceIndex < this.images.length - 1) ? this._currentSourceIndex + 1 : 0;
-          this._currentImage = this.images[this._currentSourceIndex];
-        }
+          HOVERBOARD.Analytics.trackEvent('video', 'watch', 'location video ' + this.video.title);
+        },
 
       });
 

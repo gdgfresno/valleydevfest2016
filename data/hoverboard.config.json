@@ -217,9 +217,11 @@
       "latitude": 36.732442,
       "longitude": -119.780780
     },
-    "images": [
-      "/images/backgrounds/location_hall.jpg"
-    ]
+    "video": {
+      "youtubeId": "oAjv_zrsznQ",
+      "title": "Welcome Home!",
+      "thumbnail": "/images/backgrounds/location_bwss.jpg"
+    }
   },
   "videosSessionsUrl": "//www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
   "callToAction": {
