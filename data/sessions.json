@@ -157,12 +157,12 @@
 
     "121": {
         "id": 121,
-        "title": "Go",
-        "description": "Stay tuned",
+        "title": "Golang",
+        "description": "The credentials of the Go programming language are impressive - created at Google by luminaries in computer science: Rob Pike, Ken Thompson, and Robert Griesemer. These are the same individuals who helped create the C programming language, the Unix operating system, and the UTF-8 coding scheme. When I heard these credentials, I knew I needed to learn this language. The Go programming language, which is also known as Golang, was created to be a modern programming language that easily uses multiple cores, easily implements concurrency, easily works in distributed environments, and easily allows the programmer to write programs - it has a very lean and user-friendly syntax. In 2006, Intel released the first multiple-core CPU. In 2007, Google began developing Golang. In 2009, Google released Golang as an open source project. In March of 2012, Golang version 1 was released.  Go makes it easy to build simple, reliable, and efficient software. Go provides the ability for \"server-side\" programming. Traditional choices for server-side languages have included PHP, ASP, and JSP. Currently popular server-side programming languages include Ruby, Python, and Node.js. While there are advantages and disadvantages to all languages, no server-side language is going to be faster than \"Go.\" Couple the speed of Go with Google App Engine and Cloud Storage, and you are now using the exact same architecture as Google. This means that your web apps are going to be incredibly fast and will easily scale to millions of users. Come learn about one of the greatest languages ever created. You will leave with resources and code samples to start making all of your software and apps really go.",
         "speakers": [
             13
         ],
-        "complexity": "Intermediate",
+        "complexity": "Beginner",
         "tags": [
             "Go"
         ]
@@ -170,11 +170,11 @@
     "122": {
         "id": 122,
         "title": "App Engine",
-        "description": "Stay tuned",
+        "description": "Google's App engine allows you to easily build web applications running on the cloud. Google App Engine (often referred to as GAE or simply App Engine) is a platform as a service (PaaS) cloud computing platform for developing and hosting web applications in Google-managed data centers. Applications are sandboxed and run across multiple servers. App Engine offers automatic scaling for web applications — as the number of requests increases for an application, App Engine automatically allocates more resources for the web application to handle the additional demand. Google App Engine is free up to a certain level of consumed resources. Fees are charged for additional storage, bandwidth, or instance hours required by the application. It was first released as a preview version in April 2008 and came out of preview in September 2011. Come learn how to build web apps using the same infrastructure as Google!",
         "speakers": [
             13
         ],
-        "complexity": "Intermediate",
+        "complexity": "Beginner",
         "tags": [
             "App Engine",
             "GAE",
