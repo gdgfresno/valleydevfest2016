@@ -207,7 +207,8 @@
   },
   "location": {
     "apiKey": "AIzaSyBF3hxBlnt1qfg0c9BUfdjqiIlNyJ8_gW4",
-    "link": "http://bitwiseindustries.com/",
+    "link": "//bitwiseindustries.com/",
+    "toursite": "//gdgfresno.github.io/BWSS360tour/",
     "pointer": {
       "latitude": 36.731822,
       "longitude": -119.785882,
