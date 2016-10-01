@@ -9,15 +9,21 @@
         "width": 170
       },
       {
-        "name": "GDG Fresno",
-        "url": "//www.meetup.com/googledevelopers/",
-        "logoUrl": "../images/logos/GDG_Fresno.svg",
-        "width": 170
-      },
-      {
         "name": "Fresno City College",
         "url": "//fresnocitycollege.edu/",
         "logoUrl": "../images/logos/fcc_logo_wordmark.png",
+        "width": 170
+      },
+      {
+        "name": "Opportun",
+        "url": "//opportun.com/",
+        "logoUrl": "../images/logos/opportun.png",
+        "width": 170
+      },
+      {
+        "name": "GDG Fresno",
+        "url": "//www.meetup.com/googledevelopers/",
+        "logoUrl": "../images/logos/GDG_Fresno.svg",
         "width": 170
       }
     ]
