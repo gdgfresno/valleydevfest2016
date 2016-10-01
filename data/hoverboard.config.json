@@ -132,19 +132,19 @@
         "soldOut": true
       },
       {
-        "name": "early-ticket",
-        "price": 10,
+        "name": "student-ticket",
+        "price": 5,
         "currency": "$",
-        "starts": "early-ticket-starts",
-        "ends": "early-ticket-ends",
-        "soldOut": true
+        "starts": "student-ticket-starts",
+        "ends": "student-ticket-ends",
+        "soldOut": false
       },
       {
-        "name": "lazy-ticket",
+        "name": "normal-ticket",
         "price": 15,
         "currency": "$",
-        "starts": "lazy-ticket-starts",
-        "ends": "lazy-ticket-ends",
+        "starts": "normal-ticket-starts",
+        "ends": "normal-ticket-ends",
         "soldOut": false
       },
       {
