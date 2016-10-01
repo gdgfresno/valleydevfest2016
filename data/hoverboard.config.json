@@ -137,7 +137,7 @@
         "currency": "$",
         "starts": "early-ticket-starts",
         "ends": "early-ticket-ends",
-        "soldOut": false
+        "soldOut": true
       },
       {
         "name": "lazy-ticket",
