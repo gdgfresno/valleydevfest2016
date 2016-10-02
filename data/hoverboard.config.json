@@ -96,6 +96,10 @@
     {
       "name": "հայերեն",
       "key": "hy"
+    },
+    {
+      "name": "العربية",
+      "key": "ar"
     }
   ],
   "footerBlocks": [
