@@ -84,6 +84,18 @@
     {
       "name": "English",
       "key": "en"
+    },
+    {
+      "name": "Español",
+      "key": "es"
+    },
+    {
+      "name": "Hmong",
+      "key": "hmn"
+    },
+    {
+      "name": "հայերեն",
+      "key": "hy"
     }
   ],
   "footerBlocks": [
