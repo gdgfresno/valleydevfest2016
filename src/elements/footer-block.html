@@ -223,27 +223,28 @@
         </div>
 
         <template is="dom-if" if="[[_showLanguageToggle(app.data.languages)]]">
-        <paper-menu-button vertical-align="bottom" horizontal-align="left">
-          <paper-button class="dropdown-trigger">
-            <iron-icon class="language-icon" icon="language"></iron-icon>
-            [[selectedLanguage.label]]
-            <iron-icon icon="arrow-drop-down"></iron-icon>
-          </paper-button>
-          <paper-menu
-            class="dropdown-content"
-            selected="{{app.lang}}"
-            selected-item="{{selectedLanguage}}"
-            attr-for-selected="value"
-          >
-            <template is="dom-repeat" items="[[app.data.languages]]" as="lang">
-              <paper-item
-                value="[[lang.key]]"
-                label="[[lang.name]]"
-              >[[lang.name]]
-              </paper-item>
-            </template>
-          </paper-menu>
-        </paper-menu-button>
+          <paper-menu-button vertical-align="bottom" horizontal-align="left">
+            <paper-button class="dropdown-trigger">
+              <iron-icon class="language-icon" icon="language"></iron-icon>
+              [[selectedLanguage.label]]
+              <iron-icon icon="arrow-drop-down"></iron-icon>
+            </paper-button>
+            <paper-menu
+              class="dropdown-content"
+              selected="{{app.lang}}"
+              selected-item="{{selectedLanguage}}"
+              attr-for-selected="value"
+            >
+              <template is="dom-repeat" items="[[app.data.languages]]" as="lang">
+                <paper-item
+                  value="[[lang.key]]"
+                  label="[[lang.name]]"
+                  on-tap="_changeLanguage"
+                >[[lang.name]]
+                </paper-item>
+              </template>
+            </paper-menu>
+          </paper-menu-button>
         </template>
       </div>
     </div>
@@ -262,16 +263,12 @@
           HOVERBOARD.LocalizeBehavior
         ],
 
-        observers: [
-          'languageChanged(app.lang)'
-        ],
-
         scrollToTop: function (e) {
           HOVERBOARD.Elements.Template.backToTop(e);
         },
 
-        languageChanged: function (lang) {
-          HOVERBOARD.Analytics.trackEvent('language', 'select', lang);
+        _changeLanguage: function (e) {
+          HOVERBOARD.Analytics.trackEvent('language', 'select', e.target.label);
         },
 
         _getLinkTarget: function (newTab) {

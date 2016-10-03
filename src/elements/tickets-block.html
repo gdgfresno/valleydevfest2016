@@ -85,12 +85,9 @@
         </template>
       </div>
       <div class="details">[[localize('tickets-details')]]</div>
-      <a href$="[[app.data.tickets.url]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyTicketClick" title="[[localize('buy-tooltip')]]">
+      <a href$="[[app.data.tickets.url]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyClick">
         <paper-button class="buy-button" raised>[[localize('buy-ticket')]]</paper-button>
       </a>
-      <!--<a href$="[[app.data.tshirts.url]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyTshirtClick" title="[[localize('buy-tooltip')]]">
-        <paper-button class="buy-button" raised>[[localize('buy-t-shirt')]]</paper-button>
-      </a>-->
     </div>
 
   </template>
@@ -110,12 +107,8 @@
           HOVERBOARD.Elements.Tickets = this;
         },
 
-        _trackBuyTicketClick: function (e) {
+        _trackBuyClick: function (e) {
           HOVERBOARD.Analytics.trackEvent('ticket', 'buy_click', e.currentTarget.href);
-        },
-
-        _trackBuyTshirtClick: function (e) {
-          HOVERBOARD.Analytics.trackEvent('tshirt', 'buy_click', e.currentTarget.href);
         }
 
       });

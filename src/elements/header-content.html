@@ -138,10 +138,7 @@
               </div>
               <h2 class="motto">{{localize('motto')}}</h2>
               <div class="action-buttons">
-                <!--<a href$="[[app.data.tshirts.url]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyTshirt" title="[[localize('buy-tooltip')]]">
-                  <paper-button class="primary" raised>[[localize('buy-t-shirt')]]</paper-button>
-                </a>-->
-                <paper-button class="primary" on-tap="_scrollToTickets" raised title="[[localize('buy-tooltip')]]">{{localize('buy-ticket')}}</paper-button>
+                <paper-button class="primary" on-tap="_scrollToTickets" raised>{{localize('buy-ticket')}}</paper-button>
               </div>
             </div>
           </div>
@@ -214,10 +211,6 @@
             behavior: 'smooth',
             target: HOVERBOARD.Elements.Scroller
           });
-        },
-
-        _trackBuyTshirt: function () {
-          HOVERBOARD.Analytics.trackEvent('tshirt', 'buy_click', 'header');
         }
 
       });
