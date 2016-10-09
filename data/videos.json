@@ -24,6 +24,18 @@
     "thumbnail": "/images/sessions/105.jpg"
   },
   {
+    "youtubeId": "wOGfZ_aLGqM",
+    "title": "Supercharging Firebase with Google Cloud Platform - Google I/O 2016",
+    "speakers": "Sandeep Dinesh",
+    "thumbnail": "/images/sessions/108.jpg"
+  },
+  {
+    "youtubeId": "nz-LcdoMYWA",
+    "title": "Real-time IoT with Containers and gRPC",
+    "speakers": "Sandeep Dinesh",
+    "thumbnail": "/images/sessions/109.jpg"
+  },
+  {
     "youtubeId": "CvQXztn4MXI",
     "title": "Getting Started with Google Cloud Platform",
     "speakers": "Sandeep Dinesh",
