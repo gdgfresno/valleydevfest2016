@@ -11,10 +11,11 @@
         "shortBio": "Paul is a Web Developer Advocate at Google, and spends most of his time making the web fast and user friendly, currently by supporting the Accelerated Mobile Pages project.",
         "bio": "Paul worked at Zynga before Google and his widest known creations are jQuery UI and Aves Engine. Currently he is workign on the Accelerated Mobile Pages project.",
         "tags": [
+            "Animations",
+            "Human perception",
             "AMP",
             "Chrome Dev Tools",
-            "PWA",
-            "Human perception"
+            "PWA"
         ],
         "badges": [
         ],
@@ -484,6 +485,47 @@
             "icon": "gplus",
             "link": "//plus.google.com/+JimHutson",
             "name": "Google+"
+          }
+        ]
+    },
+    "16": {
+        "id": 16,
+        "featured": false,
+        "name": "Matt Higley",
+        "title": "Developer Fellow",
+        "company": "Bitwise Industries",
+        "companyLogo": "/images/logos/bitwise.svg",
+        "country": "",
+        "photoUrl": "/images/people/matt_higley.jpg",
+        "shortBio": "An educator of technology for Geekwise Academy and a passionate Front End Developer",
+        "bio": "My career in technology literally began with a business card in 2008. After a much admired instructor handed me the business card of a local entrepreneur of a budding design firm based out of Fresno, a thirty minute phone conversation and a three hour visit launched me into an internship that radically changed my life. I studied the art of web development from the ground up and have never stopped learning since. Each company I worked with over the years have pushed my abilities to new heights while presenting constant challenges that have tested my skills. I have had the chance to work on content management systems with both Drupal and Wordpress, manned the camera and sound equipment for a local videographer and took some time to work as an independent developer. My love of the front-end web has kept me focused and provided the opportunities to share that passion with others. It began with an off-the-cuff request to stand-in for another instructor and turned into a full-time career with Bitwise Industries as a Developer Fellow. I have had the honor of teaching hundreds of students who have worked through the Geekwise Academy Bootcamp courses, some of which who have gone on to create new tech companies, and others working on some of the most cutting edge projects in the valley. I have taught a university level course at Fresno Pacific College, empowered individuals coming in on welfare through the Department of Social Services and now spend my time inspiring high schoolers from Kingsburg and Fowler high raising up the next generation of developers.",
+        "tags": [
+            "Web",
+            "CSS",
+            "UX"
+        ],
+        "badges": [
+        ],
+        "socials": [
+          {
+            "icon": "facebook",
+            "link": "//www.facebook.com/matthewd.higley",
+            "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "//twitter.com/matthewhigley",
+            "name": "Twitter"
+          },
+          {
+            "icon": "linkedin",
+            "link": "//www.linkedin.com/in/mhigley",
+            "name": "Linkedin"
+          },
+          {
+            "icon": "github",
+            "link": "//github.com/mhigley",
+            "name": "Github"
           }
         ]
     }

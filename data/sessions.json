@@ -27,7 +27,8 @@
         ],
         "complexity": "Beginner",
         "tags": [
-            "General"
+            "Animations",
+            "Human Perception"
         ]
     },
     "103": {
@@ -274,14 +275,16 @@
     },
     "135": {
         "id": 135,
-        "title": "TBD",
-        "description": "Stay Tuned...",
+        "title": "The Future of Web Layout: The CSS Grid",
+        "description": "Layout for the web has been an ever evolving process of hackery. Frames, tables, floats and positioning are all victims of abuse by developers, none of which ever really provided the control that was needed for the complex web. The closest solution in recent years has been the adoption of Flexbox to the CSS spec, but even that is being forced to do layout that it’s not intended for. Enter the Grid. The first true solution that has been specifically designed making even the most complex layout possible.",
         "speakers": [
-            7
+            16
         ],
-        "complexity": "Intermediate",
+        "complexity": "Beginner",
         "tags": [
-            "General"
+            "Web",
+            "CSS",
+            "UX"
         ]
     },
     "136": {
@@ -347,6 +350,19 @@
         "tags": [
             "General"
         ]
-    }
+    },
 
+    "150": {
+        "id": 150,
+        "title": "Code Labs",
+        "description": "Firebase code labs facilitated by Free Code Camp advocates",
+        "speakers": [
+            11
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Firebase",
+            "General"
+        ]
+    }
 }
