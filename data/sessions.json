@@ -13,6 +13,7 @@
         "image": "/images/backgrounds/coffee-break.jpg",
         "colspan": true,
         "speakers": [
+            5,
             14
         ]
     },
