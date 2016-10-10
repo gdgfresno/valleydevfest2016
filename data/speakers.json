@@ -531,5 +531,47 @@
             "name": "Github"
           }
         ]
+    },
+    "17": {
+        "id": 17,
+        "featured": false,
+        "name": "Rick G",
+        "title": "Free Code Camp organizer",
+        "company": "...",
+        "companyLogo": "",
+        "country": "",
+        "photoUrl": "",
+        "shortBio": "...",
+        "bio": "...",
+        "tags": [
+            "Firebase",
+            "Cloud",
+            "Web"
+        ],
+        "badges": [
+        ],
+        "socials": [
+        ]
+    },
+    "18": {
+        "id": 18,
+        "featured": false,
+        "name": "Michael Chrisco",
+        "title": "Free Code Camp co-organizer",
+        "company": "...",
+        "companyLogo": "",
+        "country": "",
+        "photoUrl": "",
+        "shortBio": "...",
+        "bio": "...",
+        "tags": [
+            "Firebase",
+            "Cloud",
+            "Web"
+        ],
+        "badges": [
+        ],
+        "socials": [
+        ]
     }
 }

@@ -78,7 +78,11 @@
     "110": {
         "id": 110,
         "title": "Build and Battle",
-        "description": "Learn Arduino, program you own low cost sumo bot and compete with each other. Engage in other maker activities."
+        "description": "Learn Arduino, program you own low cost sumo bot and compete with each other. Engage in other maker activities.",
+        "complexity": "Beginner",
+        "tags": [
+            "General"
+        ]
     },
 
     "111": {
@@ -362,11 +366,14 @@
         "title": "Code Labs",
         "description": "Firebase code labs facilitated by Free Code Camp advocates",
         "speakers": [
-            11
+            17,
+            18
         ],
         "complexity": "Beginner",
         "tags": [
             "Firebase",
+            "Cloud",
+            "Web",
             "General"
         ]
     }
