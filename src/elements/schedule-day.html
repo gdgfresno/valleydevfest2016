@@ -57,6 +57,7 @@
         @apply(--shadow-transition);
         cursor: pointer;
         color: var(--primary-text-color);
+        flex: 1;
       }
 
       .sub-session[with-background] {
@@ -112,6 +113,12 @@
         content: "/";
       }
 
+      .sub-session paper-card {
+        width: 100%;
+        height: 100%;
+        flex: 1;
+      }
+
       .speaker-block {
         padding: 12px 24px;
         color: #fff;
@@ -129,6 +136,10 @@
       .sub-session[with-background] .image-overlay,
       .sub-session[with-background]:hover .image-overlay {
         opacity: 0;
+      }
+
+      paper-card > .overlay {
+        height: 100%;
       }
 
       .tags {
@@ -211,7 +222,7 @@
                       </template>
 
                       <template is="dom-if" if="[[subSession.speakers]]">
-                        <div class="speaker-block" relative>
+                        <div class="speaker-block" layout horizontal wrap relative>
                           <div class="image-overlay"
                                style$="background-color: [[_getCustomStyleValue(subSession.mainTag)]]" fit></div>
                           <template is="dom-repeat" items="[[subSession.speakers]]" as="speaker">
