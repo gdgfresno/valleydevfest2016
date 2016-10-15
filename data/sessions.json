@@ -384,17 +384,17 @@
     "150": {
         "id": 150,
         "title": "Code Labs",
-        "description": "Firebase code labs facilitated by Free Code Camp advocates",
+        "description": "Interactive Google Maps code labs facilitated by Free Code Camp advocates",
         "speakers": [
             17,
             18
         ],
         "complexity": "Beginner",
         "tags": [
-            "Firebase",
+            "Code Labs",
+            "Maps",
             "Cloud",
-            "Web",
-            "General"
+            "Web"
         ]
     },
 
