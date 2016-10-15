@@ -8,8 +8,8 @@
     },
     "116": {
         "id": 116,
-        "title": "Opening",
-        "description": "Official start of the conference. Greetings from the organizers, sponsors and partners",
+        "title": "Opening: greetings from the organizers, sponsors and partners",
+        "description": "Official start of the conference.<br>8:50 - 8:55 - Irma and Rebecca- 59doc<br>8:55 - 9:00 - Martin - Google<br>9:00 - 9:05 - Dr. Carole Goldsmith - President Fresno City College<br>9:05 - 9-10 - Rio - Fresno City College and GDG Fresno",
         "image": "/images/backgrounds/coffee-break.jpg",
         "colspan": true,
         "speakers": [
