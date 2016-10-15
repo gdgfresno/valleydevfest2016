@@ -2,7 +2,7 @@
     "date": "2016-10-22",
     "dateReadable": "October 22",
     "tracks": [{
-        "title": "Web, AMP"
+        "title": "AMP / PWA"
     }, {
         "title": "PWA"
     }, {
@@ -68,7 +68,7 @@
             [133],
             [111],
             [123],
-            [150],
+            [404],
             [110]
         ]
     }, {

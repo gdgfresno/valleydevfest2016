@@ -573,5 +573,30 @@
         ],
         "socials": [
         ]
+    },
+    "19": {
+        "id": 19,
+        "featured": false,
+        "name": "Fresno Ideaworks fellows",
+        "title": "Build and Battle facilitators",
+        "company": "Fresno Ideaworks",
+        "companyLogo": "/images/logos/ideaworks-logo-invert.png",
+        "country": "",
+        "photoUrl": "",
+        "shortBio": "...",
+        "bio": "...",
+        "tags": [
+            "Maker Space",
+            "IoT"
+        ],
+        "badges": [
+        ],
+        "socials": [
+          {
+            "icon": "website",
+            "link": "//fresnoideaworks.org/",
+            "name": "website"
+          }
+        ]
     }
 }

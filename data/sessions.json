@@ -80,9 +80,13 @@
         "id": 110,
         "title": "Build and Battle",
         "description": "Learn Arduino, program you own low cost sumo bot and compete with each other. Engage in other maker activities.",
+        "speakers": [
+            19
+        ],
         "complexity": "Beginner",
         "tags": [
-            "General"
+            "Maker Space",
+            "Kids"
         ]
     },
 
@@ -170,6 +174,7 @@
         ],
         "complexity": "Beginner",
         "tags": [
+            "Cloud Track",
             "Go"
         ]
     },
@@ -182,6 +187,7 @@
         ],
         "complexity": "Beginner",
         "tags": [
+            "Cloud Track",
             "App Engine",
             "GAE",
             "Cloud"
@@ -196,6 +202,7 @@
         ],
         "complexity": "Intermediate",
         "tags": [
+            "Cloud Track",
             "Firebase",
             "Google Cloud Platform",
             "GCP",
@@ -211,6 +218,7 @@
         ],
         "complexity": "Intermediate",
         "tags": [
+            "Cloud Track",
             "Cloud",
             "Deep Learning",
             "Big Query"
@@ -225,6 +233,7 @@
         ],
         "complexity": "Intermediate",
         "tags": [
+            "Cloud Track",
             "Firebase"
         ]
     },
@@ -238,6 +247,7 @@
         ],
         "complexity": "Beginner",
         "tags": [
+            "PWA Track",
             "Progressive Web Apps",
             "NFC",
             "BLE"
@@ -252,6 +262,7 @@
         ],
         "complexity": "Intermediate",
         "tags": [
+            "PWA Track",
             "Progressive Web Apps",
             "Machine Learning"
         ]
@@ -265,6 +276,7 @@
         ],
         "complexity": "Intermediate",
         "tags": [
+            "PWA Track",
             "App Engine",
             "GAE",
             "Compute Engine",
@@ -280,6 +292,7 @@
         ],
         "complexity": "Intermediate",
         "tags": [
+            "AMP PWA Track",
             "AMP"
         ]
     },
@@ -292,6 +305,7 @@
         ],
         "complexity": "Beginner",
         "tags": [
+            "AMP PWA Track",
             "Web",
             "CSS",
             "UX"
@@ -306,6 +320,7 @@
         ],
         "complexity": "Intermediate",
         "tags": [
+            "AMP PWA Track",
             "Chrome Dev Tools"
         ]
     },
@@ -319,6 +334,7 @@
         ],
         "complexity": "Intermediate",
         "tags": [
+            "AMP PWA Track",
             "AMP",
             "Web",
             "Progressive Web Apps"
@@ -333,6 +349,7 @@
         ],
         "complexity": "Intermediate",
         "tags": [
+            "AMP PWA Track",
             "Web",
             "UX"
         ]
@@ -346,6 +363,7 @@
         ],
         "complexity": "Intermediate",
         "tags": [
+            "PWA Track",
             "General"
         ]
     },
@@ -358,6 +376,7 @@
         ],
         "complexity": "Intermediate",
         "tags": [
+            "PWA Track",
             "General"
         ]
     },
@@ -377,5 +396,12 @@
             "Web",
             "General"
         ]
+    },
+
+    "404": {
+        "id": 404,
+        "title": "Not available",
+        "description": ""
     }
+
 }
