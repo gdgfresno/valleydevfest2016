@@ -110,7 +110,7 @@
         "speakers": [
             6
         ],
-        "complexity": "Intermediate",
+        "complexity": "Beginner",
         "tags": [
             "Android",
             "Libraries",
@@ -136,7 +136,7 @@
     "114": {
         "id": 114,
         "title": "OpenJDK for the a'N'droidlings",
-        "description": "The day has come, finally with version N, Android moved to OpenJDK from the old rusty \"Harmony\" based friend. With the move to OpenJDK finally aNdroid finally has access to many new language features lambdas, streams, default methods on interfaces and many more. You have listened all those features in Java talks for years, this time come and watch  how the new language features and invoke dynamics will change your aNdroid world.",
+        "description": "The day has come: with version N, Android moved to OpenJDK at last from the old rusty \"Harmony\" based friend. With the move to OpenJDK aNdroid finally has access to many new language features lambdas, streams, default methods on interfaces and many more. You have listened all those features in Java talks for years, this time come and watch how the new language features and invoke dynamics will change your aNdroid world.",
         "speakers": [
             6
         ],
@@ -231,7 +231,7 @@
         "speakers": [
             5
         ],
-        "complexity": "Intermediate",
+        "complexity": "Beginner",
         "tags": [
             "Cloud Track",
             "Firebase"
@@ -269,8 +269,8 @@
     },
     "133": {
         "id": 133,
-        "title": "Developing Multi-Tenant Applications on GCP and App Engine",
-        "description": "Stay Tuned...",
+        "title": "App Engine Flexible and Custom Runtimes",
+        "description": "Developing Multi-Tenant Applications on GCP and App Engine",
         "speakers": [
             9
         ],
@@ -290,7 +290,7 @@
         "speakers": [
             15
         ],
-        "complexity": "Intermediate",
+        "complexity": "Beginner",
         "tags": [
             "AMP PWA Track",
             "AMP"
@@ -313,15 +313,16 @@
     },
     "136": {
         "id": 136,
-        "title": "DevTools",
-        "description": "Stay Tuned...",
+        "title": "DevTools: The Beginning",
+        "description": "DevTools is no longer an optional tool in the web developers belt. In this talk, James explores getting started with DevTools to make you web development day just a little more enchanted.",
         "speakers": [
             8
         ],
-        "complexity": "Intermediate",
+        "complexity": "Beginner",
         "tags": [
             "AMP PWA Track",
-            "Chrome Dev Tools"
+            "Chrome Dev Tools",
+            "Web"
         ]
     },
 
@@ -347,7 +348,7 @@
         "speakers": [
             3
         ],
-        "complexity": "Intermediate",
+        "complexity": "Beginner",
         "tags": [
             "AMP PWA Track",
             "Web",
@@ -356,28 +357,57 @@
     },
     "143": {
         "id": 143,
-        "title": "TBD",
-        "description": "Stay Tuned...",
+        "title": "Polymer and Web Components NOW",
+        "description": "You've lost track of the star date and you've started to question exactly which timeline you're on. \"Polymer, Web Components...I've built them, lots of people have...but where is the meaning?\" In this talk, Justin explores the current state of Polymer, the standards, how you might consider using them and what is in store to get you back out into the final progressive frontier of web development.",
         "speakers": [
             7
         ],
-        "complexity": "Intermediate",
+        "complexity": "Beginner",
         "tags": [
             "PWA Track",
-            "General"
+            "Polymer",
+            "Web Components"
         ]
     },
     "144": {
         "id": 144,
-        "title": "TBD",
-        "description": "Stay Tuned...",
+        "title": "Progressive Web Apps to Production",
+        "description": "Building a progressive web app from scratch is amazing. But what happens when you already have an web application in production now? In this talk, we explore the approaches and cases for getting progressive web app features integrated into your new and existing production environments.",
         "speakers": [
             7
         ],
-        "complexity": "Intermediate",
+        "complexity": "Beginner",
         "tags": [
             "PWA Track",
-            "General"
+            "Progressive Web Apps",
+            "PWA"
+        ]
+    },
+    "145": {
+        "id": 145,
+        "title": "PWAs, Physical Web, and things in your house",
+        "description": "In a time where your house is connected, its also massively harder to connect to things. In this talk, we explore a future demo of just what the Physical Web and Progressive Webs Apps can be used for to super-charge your Internet of Things experience.",
+        "speakers": [
+            7
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "PWA Track",
+            "Progressive Web Apps",
+            "IoT"
+        ]
+    },
+    "146": {
+        "id": 146,
+        "title": "Integrating and Delivering AMP",
+        "description": "In this talk, we explore the approaches and cases for getting AMP features integrated into your new and existing production environments.",
+        "speakers": [
+            7
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "AMP PWA Track",
+            "AMP"
         ]
     },
 
