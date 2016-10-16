@@ -2,17 +2,17 @@
     "date": "2016-10-22",
     "dateReadable": "October 22",
     "tracks": [{
-        "title": "AMP / PWA"
+        "title": "AMP / PWA - GeekWise Classroom 1"
     }, {
-        "title": "PWA"
+        "title": "PWA - GeekWise Classroom 2"
     }, {
-        "title": "Android"
+        "title": "Android - GeekWise Classroom 3"
     }, {
-        "title": "Cloud"
+        "title": "Cloud - GeekWise Classroom 4"
     }, {
-        "title": "Codelabs"
+        "title": "Codelabs - GeekWise Classroom 5"
     }, {
-        "title": "Maker Space"
+        "title": "Maker Space - GeekWise Classroom 6"
     }],
     "timeslots": [{
         "startTime": "08:00",
