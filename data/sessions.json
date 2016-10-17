@@ -79,14 +79,13 @@
     "110": {
         "id": 110,
         "title": "Build and Battle",
-        "description": "Learn Arduino, program you own low cost sumo bot and compete with each other. Engage in other maker activities.",
+        "description": "Learn Arduino, program you own low cost sumo bot and compete with each other. Engage in other maker activities. Additional pre-regsitration required.",
         "speakers": [
             19
         ],
         "complexity": "Beginner",
         "tags": [
-            "Maker Space",
-            "Kids"
+            "Maker Space"
         ]
     },
 
