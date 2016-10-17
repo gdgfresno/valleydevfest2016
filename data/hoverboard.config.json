@@ -153,7 +153,7 @@
         "currency": "$",
         "starts": "student-ticket-starts",
         "ends": "student-ticket-ends",
-        "soldOut": false
+        "soldOut": true
       },
       {
         "name": "normal-ticket",
