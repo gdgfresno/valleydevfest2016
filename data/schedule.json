@@ -2,17 +2,23 @@
     "date": "2016-10-22",
     "dateReadable": "October 22",
     "tracks": [{
-        "title": "AMP / PWA Track - GeekWise Classroom 1"
+        "title": "AMP / PWA Track",
+        "location": "GeekWise Classroom 1"
     }, {
-        "title": "PWA Track - GeekWise Classroom 2"
+        "title": "PWA Track",
+        "location": "GeekWise Classroom 2"
     }, {
-        "title": "Android - GeekWise Classroom 3"
+        "title": "Android",
+        "location": "GeekWise Classroom 3"
     }, {
-        "title": "Cloud Track - GeekWise Classroom 4"
+        "title": "Cloud Track",
+        "location": "GeekWise Classroom 4"
     }, {
-        "title": "Codelabs - GeekWise Classroom 5"
+        "title": "Codelabs",
+        "location": "GeekWise Classroom 5"
     }, {
-        "title": "Maker Space - GeekWise Classroom 6"
+        "title": "Maker Space",
+        "location": "GeekWise Classroom 6"
     }],
     "timeslots": [{
         "startTime": "08:00",
@@ -34,7 +40,7 @@
         ]
     }, {
         "startTime": "10:00",
-        "endTime": "11:00",
+        "endTime": "10:50",
         "sessions": [
             [141],
             [131],
@@ -45,7 +51,7 @@
         ]
     }, {
         "startTime": "11:00",
-        "endTime": "12:00",
+        "endTime": "11:50",
         "sessions": [
             [142],
             [132],
@@ -62,7 +68,7 @@
         ]
     }, {
         "startTime": "13:00",
-        "endTime": "14:00",
+        "endTime": "13:50",
         "sessions": [
             [134],
             [133],
@@ -73,7 +79,7 @@
         ]
     }, {
         "startTime": "14:00",
-        "endTime": "15:00",
+        "endTime": "14:50",
         "sessions": [
             [135],
             [143],
@@ -84,7 +90,7 @@
         ]
     }, {
         "startTime": "15:00",
-        "endTime": "16:00",
+        "endTime": "15:50",
         "sessions": [
             [136],
             [144],
