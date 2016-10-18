@@ -82,5 +82,17 @@
   "continue-reading": "Continue reading",
   "view-presentation": "View presentation",
   "view-video": "View video",
-  "share-with": "Share with"
+  "share-with": "Share with",
+  "session-rating": "Session rating:",
+  "content": "Content",
+  "presentation": "Presentation",
+  "venue": "Venue",
+  "very-satisfied": "Very Satisfied",
+  "satisfied": "Satisfied",
+  "neutral": "Neutral",
+  "dissatisfied": "Dissatisfied",
+  "very-dissatisfied": "Very Dissatisfied",
+  "sign-in": "Sign-in",
+  "sign-out": "Sign-out",
+  "profile-pic": "Profile picture"
 }

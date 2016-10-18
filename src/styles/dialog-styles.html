@@ -29,11 +29,13 @@
         --paper-fab-iron-icon: {
           color: var(--secondary-text-color);
         };
-        --paper-menu-button: {
-          margin-top: calc(-36px - var(--content-padding));
-          margin-right: var(--content-padding);
+        .share-menu {
           float: right;
           z-index: 1;
+          margin-top: calc(-36px - var(--content-padding));
+          margin-right: var(--content-padding);
+        };
+        --paper-menu-button: {
         };
       }
 
@@ -202,11 +204,19 @@
           min-height: 60%;
           min-width: 800px;
           --paper-menu-button: {
+          }
+          .share-menu {
+            z-index: 1;
             margin-top: calc(-36px - var(--content-padding));
             float: right;
-            z-index: 1;
-          }
+          };
         }
+        .rate-menu {
+
+        }
+        .share-menu {
+          float: right;
+        };
 
         .sections {
           margin: 0 -8px -32px;
@@ -215,6 +225,11 @@
         .section {
           padding: 0 8px;
           width: calc(50% - 16px);
+        }
+
+        .rating-section {
+          padding: 0 8px;
+          width: calc(32% - 16px);
         }
 
         .section:last-of-type {

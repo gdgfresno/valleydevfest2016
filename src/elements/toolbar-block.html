@@ -73,6 +73,11 @@
         background: var(--header-color);
         font-size: 13px;
       }
+
+      .profile-pic {
+        width: 36px;
+        height: 36px;
+      }
     </style>
 
     <app-toolbar id="mainToolbar">
@@ -102,6 +107,15 @@
             <a href$="[[app.data.tickets.url]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyClick">
               <paper-button class="action-button">[[localize('buy-ticket')]]</paper-button>
             </a>
+            <paper-button class="action-button" hidden$="{{signedIn}}" on-tap="_signIn" action="sign-in">{{localize('sign-in')}}</paper-button>
+            <paper-button class="action-button" hidden$="{{!signedIn}}" on-tap="_signOut" action="sign-out">{{localize('sign-out')}}</paper-button>
+            <iron-image
+              class="profile-pic"
+              purpose="profile-pic"
+              src="{{profPicUrl}}"
+              sizing="cover"
+              alt="{{localize('profile-pic')}}"
+            ></iron-image>
           </div>
         </template>
       </div>
@@ -125,6 +139,14 @@
         properties: {
           hideLogo: {
             type: Boolean
+          },
+          signedIn: {
+            type: Boolean,
+            value: false
+          },
+          profPicUrl: {
+            type: String,
+            value: "/images/people/anonymous.jpg"
           }
         },
 
@@ -134,6 +156,18 @@
 
         togglePanel: function () {
           HOVERBOARD.Elements.Template.toggleDrawer();
+        },
+
+        get signInButton() {
+          return Polymer.dom(this.root).querySelector('paper-button[action="sign-in"]');
+        },
+
+        get signOutButton() {
+          return Polymer.dom(this.root).querySelector('paper-button[action="sign-out"]');
+        },
+
+        get profileIcon() {
+          return Polymer.dom(this.root).querySelector('iron-image[purpose="profile-pic"]');
         },
 
         _stylesChanged: function (headerSettings) {
@@ -146,6 +180,30 @@
 
         _trackBuyClick: function () {
           HOVERBOARD.Analytics.trackEvent('ticket', 'buy_click', 'toolbar');
+        },
+
+        _signIn: function () {
+          var that = this;
+          HOVERBOARD.Firebase.signIn().then(function(userCred) {
+            HOVERBOARD.Analytics.trackEvent('firebase', 'sign_in_resolved', 'toolbar');
+            if (!userCred.user.isAnonymous) {
+              HOVERBOARD.Analytics.trackEvent('firebase', 'sign_in_success', 'toolbar');
+              if (userCred.user.photoURL)
+                that.profPicUrl = userCred.user.photoURL;
+              that.signedIn = !that.signedIn;
+            } else {
+              that.profPicUrl = "/images/people/anonymous.jpg";
+              HOVERBOARD.Analytics.trackEvent('firebase', 'sign_in_fail', 'toolbar');
+            }
+          });
+          HOVERBOARD.Analytics.trackEvent('firebase', 'sign_in_attempt', 'toolbar');
+        },
+
+        _signOut: function () {
+          HOVERBOARD.Firebase.signOut();
+          this.profPicUrl = "/images/people/anonymous.jpg";
+          this.signedIn = !this.signedIn;
+          HOVERBOARD.Analytics.trackEvent('firebase', 'sign_out', 'toolbar');
         }
 
       });

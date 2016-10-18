@@ -154,10 +154,25 @@
 
 <script src="scripts/helper/util.js"></script>
 <script src="scripts/helper/elements.js"></script>
+<script src="scripts/helper/firebase.js"></script>
 <script src="scripts/bootstrap.js"></script>
 <script id="sw-registration" src="scripts/helper/service-worker-registration.js"></script>
 <script src="scripts/helper/deferred.js"></script>
 <script src="scripts/metrics.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/3.5.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyA4h10CGEt0PYcXNZh8p8kelMw9hVwxLOM",
+    authDomain: "valleydevfest-620d6.firebaseapp.com",
+    databaseURL: "https://valleydevfest-620d6.firebaseio.com",
+    storageBucket: "valleydevfest-620d6.appspot.com",
+    messagingSenderId: "30138497225"
+  };
+  firebase.initializeApp(config);
+  HOVERBOARD.Firebase.initFirebase();
+</script>
 
 </body>
 </html>

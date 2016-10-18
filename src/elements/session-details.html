@@ -45,7 +45,7 @@
         </div>
       </paper-toolbar>
       <div class="content">
-        <paper-menu-button horizontal-align="right" share-menu>
+        <paper-menu-button horizontal-align="right" class="share-menu" share-menu>
           <paper-fab class="float-button dropdown-trigger" icon="share"></paper-fab>
           <div class="dropdown-content">
             <paper-icon-item on-tap="share" share="gplus">
@@ -93,26 +93,102 @@
         <marked-element markdown="[[session.description]]">
           <div class="markdown-html"></div>
         </marked-element>
+      </div>
 
-        <div class="actions">
-          <template is="dom-if" if="[[session.presentation]]">
-            <a href$="[[session.presentation]]" target="_blank" rel="noopener noreferrer">
-              <paper-button class="action">
-                <iron-icon icon="presentation"></iron-icon>
-                [[localize('view-presentation')]]
-              </paper-button>
-            </a>
-          </template>
-          <template is="dom-if" if="[[session.videoId]]">
-            <div on-tap="_openVideo">
-              <paper-button class="action">
-                <iron-icon icon="video"></iron-icon>
-                [[localize('view-video')]]
-              </paper-button>
+      <div class="sections-wrapper content">
+        <h4 class="block-title">[[localize('session-rating')]]</h4>
+        <div class="sections">
+          <div class="section rating-section">
+            <div class="section-info">
+              <h3 class="section-title">[[localize('content')]]</h3>
+              <paper-menu-button horizontal-align="left" class="rate-menu" rate-menu>
+                <paper-fab class="float-button dropdown-trigger" icon="star"></paper-fab>
+                <div class="dropdown-content">
+                  <paper-icon-item on-tap="_castRating" data-rating-category="content" data-rating-value="5">
+                    <iron-icon icon="very-satisfied" item-icon></iron-icon>
+                    [[localize('very-satisfied')]]
+                  </paper-icon-item>
+                  <paper-icon-item on-tap="_castRating" data-rating-category="content" data-rating-value="4">
+                    <iron-icon icon="satisfied" item-icon></iron-icon>
+                    [[localize('satisfied')]]
+                  </paper-icon-item>
+                  <paper-icon-item on-tap="_castRating" data-rating-category="content" data-rating-value="3">
+                    <iron-icon icon="neutral" item-icon></iron-icon>
+                    [[localize('neutral')]]
+                  </paper-icon-item>
+                  <paper-icon-item on-tap="_castRating" data-rating-category="content" data-rating-value="2">
+                    <iron-icon icon="dissatisfied" item-icon></iron-icon>
+                    [[localize('dissatisfied')]]
+                  </paper-icon-item>
+                  <paper-icon-item on-tap="_castRating" data-rating-category="content" data-rating-value="1">
+                    <iron-icon icon="very-dissatisfied" item-icon></iron-icon>
+                    [[localize('very-dissatisfied')]]
+                  </paper-icon-item>
+                </div>
+              </paper-menu-button>
             </div>
-          </template>
+          </div>
+          <div class="section rating-section">
+            <div class="section-info">
+              <h3 class="section-title">[[localize('presentation')]]</h3>
+              <paper-menu-button horizontal-align="left" class="rate-menu" rate-menu>
+                <paper-fab class="float-button dropdown-trigger" icon="star"></paper-fab>
+                <div class="dropdown-content">
+                  <paper-icon-item on-tap="_castRating" data-rating-category="presentation" data-rating-value="5">
+                    <iron-icon icon="very-satisfied" item-icon></iron-icon>
+                    [[localize('very-satisfied')]]
+                  </paper-icon-item>
+                  <paper-icon-item on-tap="_castRating" data-rating-category="presentation" data-rating-value="4">
+                    <iron-icon icon="satisfied" item-icon></iron-icon>
+                    [[localize('satisfied')]]
+                  </paper-icon-item>
+                  <paper-icon-item on-tap="_castRating" data-rating-category="presentation" data-rating-value="3">
+                    <iron-icon icon="neutral" item-icon></iron-icon>
+                    [[localize('neutral')]]
+                  </paper-icon-item>
+                  <paper-icon-item on-tap="_castRating" data-rating-category="presentation" data-rating-value="2">
+                    <iron-icon icon="dissatisfied" item-icon></iron-icon>
+                    [[localize('dissatisfied')]]
+                  </paper-icon-item>
+                  <paper-icon-item on-tap="_castRating" data-rating-category="presentation" data-rating-value="1">
+                    <iron-icon icon="very-dissatisfied" item-icon></iron-icon>
+                    [[localize('very-dissatisfied')]]
+                  </paper-icon-item>
+                </div>
+              </paper-menu-button>
+            </div>
+          </div>
+          <div class="section rating-section">
+            <div class="section-info">
+              <h3 class="section-title">[[localize('venue')]]</h3>
+              <paper-menu-button horizontal-align="left" class="rate-menu" rate-menu>
+                <paper-fab class="float-button dropdown-trigger" icon="star"></paper-fab>
+                <div class="dropdown-content">
+                  <paper-icon-item on-tap="_castRating" data-rating-category="venue" data-rating-value="5">
+                    <iron-icon icon="very-satisfied" item-icon></iron-icon>
+                    [[localize('very-satisfied')]]
+                  </paper-icon-item>
+                  <paper-icon-item on-tap="_castRating" data-rating-category="venue" data-rating-value="4">
+                    <iron-icon icon="satisfied" item-icon></iron-icon>
+                    [[localize('satisfied')]]
+                  </paper-icon-item>
+                  <paper-icon-item on-tap="_castRating" data-rating-category="venue" data-rating-value="3">
+                    <iron-icon icon="neutral" item-icon></iron-icon>
+                    [[localize('neutral')]]
+                  </paper-icon-item>
+                  <paper-icon-item on-tap="_castRating" data-rating-category="venue" data-rating-value="2">
+                    <iron-icon icon="dissatisfied" item-icon></iron-icon>
+                    [[localize('dissatisfied')]]
+                  </paper-icon-item>
+                  <paper-icon-item on-tap="_castRating" data-rating-category="venue" data-rating-value="1">
+                    <iron-icon icon="very-dissatisfied" item-icon></iron-icon>
+                    [[localize('very-dissatisfied')]]
+                  </paper-icon-item>
+                </div>
+              </paper-menu-button>
+            </div>
+          </div>
         </div>
-
       </div>
 
       <template is="dom-if" if="{{session.speakers.length}}">
@@ -216,8 +292,17 @@
             Polymer.IronDropdownScrollManager.removeScrollLock(this.$.scrollHeaderPanel);
             this._finishRenderClosed();
           }
-        }
+        },
 
+        _castRating: function (e) {
+          if (HOVERBOARD.Firebase.checkSignedInWithMessage()) {
+            var ratingCategory = e.target.getAttribute('data-rating-category');
+            var ratingValueStr = e.target.getAttribute('data-rating-value');
+            var ratingValue = parseInt(ratingValueStr, 10);
+            HOVERBOARD.Firebase.castRating(this.session.id, ratingCategory, ratingValue);
+          }
+          e.target.parentNode.parentNode.opened = false;
+        }
       });
 
     }());
