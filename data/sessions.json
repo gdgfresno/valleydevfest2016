@@ -1,9 +1,10 @@
 {
     "101": {
         "id": 101,
-        "title": "Registration & morning coffee + donuts",
+        "title": "Registration & morning coffee + breakfast",
         "description": "Get your badge, coffee, enjoy socializing with your peers",
         "image": "/images/backgrounds/morning.jpg",
+        "location": "Hall",
         "colspan": true
     },
     "116": {
@@ -11,6 +12,7 @@
         "title": "Opening: greetings from the organizers, sponsors and partners",
         "description": "Official start of the conference.<br>8:50 - 8:55 - Irma and Rebecca- 59doc<br>8:55 - 9:00 - Martin - Google<br>9:00 - 9:05 - Dr. Carole Goldsmith - President Fresno City College<br>9:05 - 9-10 - Rio - Fresno City College and GDG Fresno",
         "image": "/images/backgrounds/coffee-break.jpg",
+        "location": "Auditorium (optional overflow to Hall)",
         "colspan": true,
         "speakers": [
             5,
@@ -22,6 +24,7 @@
         "title": "Keynote: Illusion of Speed",
         "description": "If you could take a 50% hit in real world performance and get a site that feels 50% faster, would you? Nobody cares how fast your site is. All your users care about is how fast your site feels. Going beyond the perceived perf theory, Paul is bringing a bunch of examples of things that employ clever tricks and psychology to turn things that should be slow into things that feel incredibly fast.",
         "image": "/images/backgrounds/opening.jpg",
+        "location": "Auditorium (optional overflow to Hall)",
         "colspan": true,
         "speakers": [
             1
@@ -37,6 +40,7 @@
         "title": "Lunch",
         "description": "Foooooooood!",
         "image": "/images/backgrounds/lunch.jpg",
+        "location": "Hall",
         "colspan": true
     },
     "104": {
@@ -44,6 +48,7 @@
         "title": "Conference closing and contest winners announcements",
         "description": "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
         "image": "/images/backgrounds/closing.jpg",
+        "location": "Auditorium (optional overflow to Hall)",
         "colspan": true,
         "speakers": [
             14
@@ -54,6 +59,7 @@
         "title": "Afterparty & Networking",
         "description": "Afterparty is a great time to have some fun and meet new people",
         "image": "/images/backgrounds/party.jpg",
+        "location": "TBD",
         "colspan": true
     },
     "106": {
