@@ -82,5 +82,17 @@
   "continue-reading": "Mus nyeem ntawv",
   "view-presentation": "Saib kev nthuav qhia",
   "view-video": "Saib video",
-  "share-with": "Qhia nrog"
+  "share-with": "Qhia nrog",
+  "session-rating": "Kev sib kho kev ntsuam xyuas:",
+  "content": "Cov ntsiab lus",
+  "presentation": "Kev nthuav qhia",
+  "venue": "venue",
+  "very-satisfied": "heev Puas",
+  "satisfied": "txaus siab",
+  "neutral": "nruab nrab",
+  "dissatisfied": "tsis txaus siab",
+  "very-dissatisfied": "heev U siab",
+  "sign-in": "Sign-nyob rau hauv",
+  "sign-out": "Sign-tawm",
+  "profile-pic": "Profile daim duab"
 }

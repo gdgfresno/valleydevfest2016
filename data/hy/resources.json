@@ -82,5 +82,17 @@
   "continue-reading": "շարունակել կարդալ",
   "view-presentation": "Դիտել շնորհանդեսը",
   "view-video": "Դիտել տեսանյութը",
-  "share-with": "Կիսվել"
+  "share-with": "Կիսվել",
+  "session-rating": "Նիստ գնահատականը:",
+  "content": "Պարունակություն",
+  "presentation": "ներկայացում",
+  "venue": "Վայրը,",
+  "very-satisfied": "Շատ գոհ",
+  "satisfied": "Գոհ",
+  "neutral": "չեզոք",
+  "dissatisfied": "դժգոհ",
+  "very-dissatisfied": "շատ դժգոհ",
+  "sign-in": "Մուտք գործել",
+  "sign-out": "Դուրս գալ",
+  "profile-pic": "Անձնագիր նկարը"
 }

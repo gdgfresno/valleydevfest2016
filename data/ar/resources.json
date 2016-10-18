@@ -82,5 +82,17 @@
   "continue-reading": "مواصلة القراءة",
   "view-presentation": "مشاهدة العرض",
   "view-video": "شاهد الفيديو",
-  "share-with": "شارك مع"
+  "share-with": "شارك مع",
+  "session-rating": "تقييم الدورة:",
+  "content": "محتوى",
+  "presentation": "عرض",
+  "venue": "مكان",
+  "very-satisfied": "راض جدا",
+  "satisfied": "راض",
+  "neutral": "محايد",
+  "dissatisfied": "مستاء",
+  "very-dissatisfied": "مستاء جدا",
+  "sign-in": "تسجيل الدخول",
+  "sign-out": "خروج",
+  "profile-pic": "الصوره الشخصيه"
 }
