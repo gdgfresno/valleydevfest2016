@@ -161,7 +161,7 @@
         "currency": "$",
         "starts": "normal-ticket-starts",
         "ends": "normal-ticket-ends",
-        "soldOut": false
+        "soldOut": true
       },
       {
         "name": "day-ticket",
