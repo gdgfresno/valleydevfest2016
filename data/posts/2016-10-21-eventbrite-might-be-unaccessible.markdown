@@ -1,16 +1,16 @@
 # Eventbrite might be unaccessible right before the conference due to a major DDoS attack against DNS infrastructure
 
 Due to a network attack you may not be able to access Eventbrite right now.
-Check if any of your friends or colleagues can access Eventbrite (the outage affects various access providers differently:
-you may have COMCAST and you don't see the site but your cellular provider can access it and you can sign up with your phone. Or the other way around).
-If you have various ways to access the internet check all them. If you cannot find access in any way to buy the tickets, contact us.
+Check if any of your friends or colleagues can see Eventbrite (the outage affects various access providers differently:
+you may have COMCAST and you don't see the site but your cellular provider can connect to it and you can sign up with your phone. Or the other way around).
+If you have various ways to connect to the internet check all of them. If you cannot find access in any way to buy the tickets, contact us.
 We'll also have some tickets reserved for walk-ins tomorrow.
 
 ![T-shirt](/images/posts/level-3-outage-map-2016-10-21.png)
 [Check current outage map](http://downdetector.com/status/level3/map/)
 
-If you are technology sawwy, you can add eventbrite.com with it's IP address into your so called `hosts` config file
-(available on Linux, Mac OSX and on Windows as well). Some operating systems may need arestart. Example hosts entry line: `52.44.84.44 eventbrite.com`.
+If you are technology savvy, you can add `eventbrite.com` with it's IP address into your so called `hosts` config file
+(available on Linux, Mac OSX and on Windows as well). Some operating systems may need a restart. Example hosts entry line: `52.44.84.44 eventbrite.com`.
 Other possible IP addresses: `52.54.131.8`, `52.54.78.128`, `52.54.35.251`, `52.54.210.77`, `52.54.122.214`, `52.54.227.46`. This is the way
 I got some servers (like some ubuntu servers) working on my machine.
 
