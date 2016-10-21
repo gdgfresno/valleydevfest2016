@@ -342,6 +342,7 @@
 
         openAuth: function (sourceComponentName) {
           HOVERBOARD.Analytics.trackEvent('firebase', 'sign_in_start', sourceComponentName);
+          this.closeDrawer();
           this.$.authDialog.open();
         },
 
