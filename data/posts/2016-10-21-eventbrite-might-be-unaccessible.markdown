@@ -14,7 +14,7 @@ If you are technology sawwy, you can add eventbrite.com with it's IP address int
 Other possible IP addresses: `52.54.131.8`, `52.54.78.128`, `52.54.35.251`, `52.54.210.77`, `52.54.122.214`, `52.54.227.46`. This is the way
 I got some servers (like some ubuntu servers) working on my machine.
 
-## Details about the attack:
+## The attack in the news:
 
 * [PC World: Major DDoS attack on Dyn DNS knocks Spotify, Twitter, Github, PayPal, and more offline](http://www.pcworld.com/article/3133847/internet/ddos-attack-on-dyn-knocks-spotify-twitter-github-etsy-and-more-offline.html)
 * [The Verge: Denial-of-service attacks are shutting down major websites across the internet](http://www.theverge.com/2016/10/21/13357344/ddos-attack-websites-shut-down)
