@@ -104,7 +104,8 @@
             </template>
           </paper-tabs>
           <div class="action-button-wrapper" layout horizontal center-center>
-            <a href$="[[app.data.tickets.url]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyClick">
+            <a href$="[[app.data.tickets.url]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyClick"
+              title="Read our latest blog post if eventbrite is unaccessible">
               <paper-button class="action-button">[[localize('buy-ticket')]]</paper-button>
             </a>
             <paper-button class="action-button" hidden$="{{signedIn}}" on-tap="_signIn" action="sign-in">{{localize('sign-in')}}</paper-button>
