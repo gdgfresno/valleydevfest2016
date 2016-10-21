@@ -14,6 +14,8 @@
 
 <link rel="import" href="../bower_components/neon-animation/neon-animated-pages.html">
 
+<link rel="import" href="../bower_components/paper-alert-dialog/paper-alert-dialog.html">
+
 <link rel="import" href="effects/fade-effect.html">
 <link rel="import" href="behaviors/utils-behavior.html">
 <link rel="import" href="behaviors/localize-behavior.html">
@@ -125,6 +127,7 @@
       >
         <template is="dom-if" if="[[app.isPhoneSize]]">
           <drawer-block
+            id="drawer_block"
             app={{app}}
             drawer
           ></drawer-block>
@@ -136,6 +139,7 @@
           <div class="image-overlay" fade></div>
         </div>
         <toolbar-block
+          id="toolbar_block"
           app="{{app}}"
           primary
           sticky
@@ -194,6 +198,25 @@
                   disable-controls="[[!video.disableControls]]"></video-dialog>
 
     <toast-element id="toast"></toast-element>
+
+    <paper-alert-dialog id="authDialog"
+      title="Sign-In"
+      confirm-button="Cancel">
+      Pick a provider:<br>
+      <paper-icon-button icon="google" on-tap="_tapLogin" data-provider="google" dismiss></paper-icon-button>
+      <paper-icon-button icon="facebook" on-tap="_tapLogin" data-provider="facebook" dismiss></paper-icon-button>
+      <paper-icon-button icon="twitter" on-tap="_tapLogin" data-provider="twitter" dismiss></paper-icon-button>
+      <paper-icon-button icon="github" on-tap="_tapLogin" data-provider="github" dismiss></paper-icon-button>
+    </paper-alert-dialog>
+
+    <paper-alert-dialog id="authRedirectDialog"
+      title="Sign-In"
+      confirm-button="Continue"
+      dismiss-button="Cancel"
+      on-confirm="handleContinue">
+      You've been signed in before with another provider.<br>
+      Continue sign-in with that provider or Cancel sign-in procedure?
+    </paper-alert-dialog>
 
   </template>
 
@@ -315,6 +338,53 @@
             disableControls: disableControls
           };
           this.$.videoDialog.open();
+        },
+
+        openAuth: function (sourceComponentName) {
+          HOVERBOARD.Analytics.trackEvent('firebase', 'sign_in_start', sourceComponentName);
+          this.$.authDialog.open();
+        },
+
+        openAuthRedirect: function () {
+          this.$.authRedirectDialog.open();
+        },
+
+        handleContinue: function () {
+          HOVERBOARD.Firebase.redirectedSignIn();
+        },
+
+        adjustSignedIn: function (user) {
+          var drawer = this.$$('#drawer_block'); 
+          var toolbar = this.$$('#toolbar_block');
+          if (user && !user.isAnonymous) {
+            if (toolbar) {
+              toolbar.signedIn = true;
+              if (user.photoURL) {
+                toolbar.profPicUrl = user.photoURL;
+              } else {
+                toolbar.profPicUrl = "/images/people/anonymous.jpg";
+              }
+            }
+            if (drawer) {
+              drawer.signedIn = true;
+            }
+          } else {
+            if (toolbar) {
+              toolbar.signedIn = false;
+              toolbar.profPicUrl = "/images/people/anonymous.jpg";
+            }
+            if (drawer) {
+              drawer.signedIn = false;
+            }
+          }
+        },
+
+        _tapLogin: function (e) {
+          var providerStr = e.target.getAttribute('data-provider');
+          this.$.authDialog.close();
+          var providerId = HOVERBOARD.Firebase.getProviderForProviderStr(providerStr);
+          HOVERBOARD.Firebase.signIn(providerId);
+          HOVERBOARD.Analytics.trackEvent('firebase', 'sign_in_attempt', 'toolbar');
         }
 
       });

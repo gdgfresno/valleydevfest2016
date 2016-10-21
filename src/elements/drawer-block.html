@@ -129,11 +129,6 @@
           }
         },
 
-        ready: function () {
-          var userCred = HOVERBOARD.Firebase.checkSignedIn();
-          this._adjustSignedIn(userCred);
-        },
-
         closeDrawer: function () {
           HOVERBOARD.Elements.Template.closeDrawer();
         },
@@ -143,33 +138,12 @@
           this.closeDrawer();
         },
 
-        _adjustSignedIn: function (userCred) {
-          if (userCred && userCred.user && !userCred.user.isAnonymous) {
-            this.signedIn = true;
-          } else {
-            this.signedIn = false;
-          }
-        },
-
-        _signIn: function () {
-          var that = this;
-          HOVERBOARD.Firebase.signIn().then(function(userCred) {
-            HOVERBOARD.Analytics.trackEvent('firebase', 'sign_in_resolved', 'drawer');
-            if (!userCred.user.isAnonymous) {
-              HOVERBOARD.Analytics.trackEvent('firebase', 'sign_in_success', 'drawer');
-              that._adjustSignedIn(userCred);
-            } else {
-              that._adjustSignedIn(null);
-              HOVERBOARD.Analytics.trackEvent('firebase', 'sign_in_fail', 'drawer');
-            }
-          });
-          HOVERBOARD.Analytics.trackEvent('firebase', 'sign_in_attempt', 'drawer');
+        _signIn: function (e) {
+          HOVERBOARD.Elements.Template.openAuth('drawer');
         },
 
         _signOut: function () {
-          HOVERBOARD.Firebase.signOut();
-          this._adjustSignedIn(null);
-          HOVERBOARD.Analytics.trackEvent('firebase', 'sign_out', 'drawer');
+          HOVERBOARD.Firebase.signOut('drawer');
         }
 
       });

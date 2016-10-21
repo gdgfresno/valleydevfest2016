@@ -97,8 +97,7 @@
 
   window.addEventListener('offline', function () {
     if (HOVERBOARD.Elements && HOVERBOARD.Elements.Template.$.toast) {
-      HOVERBOARD.Elements.Template.$.toast.showMessage(
-        'You can still work offline.');
+      HOVERBOARD.Elements.Template.$.toast.showMessage('Session ratings won\'t work while being offline.');
     }
   });
 
