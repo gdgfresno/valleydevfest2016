@@ -296,8 +296,8 @@
     },
     "134": {
         "id": 134,
-        "title": "AMP",
-        "description": "AMP and more",
+        "title": "AMP for fun and profit",
+        "description": "A brief introduction to AMP development and debugging along with examples for implementing ads, analytics, and social media features in AMP.",
         "speakers": [
             15
         ],
