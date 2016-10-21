@@ -85,13 +85,17 @@
     "110": {
         "id": 110,
         "title": "Build and Battle",
-        "description": "Learn Arduino, program you own low cost sumo bot and compete with each other. Engage in other maker activities. Additional pre-regsitration required.",
+        "description": "You will build a functioning Sumobot with an Arduino, ultrasonic sensor, and motors. Additional pre-regsitration required.",
         "speakers": [
-            19
+            19,
+            20
         ],
         "complexity": "Beginner",
         "tags": [
-            "Maker Space"
+            "Robotics",
+            "Arduino",
+            "Maker Space",
+            "Hacker Space"
         ]
     },
 
@@ -219,7 +223,8 @@
         "title": "Magic in the Cloud with Node.js",
         "description": "Node.js makes building web applications and APIs easy – Google App Engine makes running node.js in production fun. Walk through deploying a Hello World app, using the gcloud npm module to talk to other Google Cloud services, and using the Cloud Vision API to analyze images.",
         "speakers": [
-            4
+            4,
+            2
         ],
         "complexity": "Intermediate",
         "tags": [
@@ -420,10 +425,9 @@
     "150": {
         "id": 150,
         "title": "Code Labs",
-        "description": "Interactive Google Maps code labs facilitated by Free Code Camp advocates",
+        "description": "Interactive Google Maps code labs facilitated by Free Code Camp advocates. Bring your own laptop. Limited space is available.",
         "speakers": [
-            17,
-            18
+            17
         ],
         "complexity": "Beginner",
         "tags": [

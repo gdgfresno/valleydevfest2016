@@ -49,28 +49,37 @@
     },
     "2": {
         "id": 2,
-        "featured": true,
-        "name": "Nilay Yener",
-        "title": "Program Manager for Google Developer Relations",
+        "featured": false,
+        "name": "Sherol Chen",
+        "title": "Developer Advocate",
         "company": "Google",
         "companyLogo": "/images/logos/google.svg",
         "country": "",
-        "photoUrl": "/images/people/nilay_yener.jpg",
-        "shortBio": "Nilay helps a lot for GDGs in North America and all around the world.",
-        "bio": ".",
+        "photoUrl": "/images/people/sherol_chen.jpg",
+        "shortBio": "Sherol works with games product groups and Machine Learning tools at Google as a Developer Advocate.",
+        "bio": "Besides being a developer advocate at Google she is also a pre-collegiate instructor for Stanford University. She's taught at Stanford and around the world in five different countries. Her PhD work is in Computer Science, researching storytelling and Artificial Intelligence. ",
         "tags": [
-            "General",
-            "Community",
-            "GDGs"
+            "Cloud",
+            "Machine Learning"
         ],
         "badges": [
         ],
         "socials": [
-            {
-                "icon": "gplus",
-                "name": "Google+",
-                "link": "//plus.google.com/+NilayCoşkunYener"
-            }
+          {
+            "icon": "website",
+            "link": "//sherol.github.io",
+            "name": "Blog"
+          },
+          {
+            "icon": "twitter",
+            "link": "//twitter.com/ffpaladin",
+            "name": "Twitter"
+          },
+          {
+            "icon": "linkedin",
+            "link": "//www.linkedin.com/in/ffpaladin/de",
+            "name": "Linkedin"
+          }
         ]
     },
     "3": {
@@ -161,7 +170,7 @@
     },
     "6": {
         "id": 6,
-        "featured": false,
+        "featured": true,
         "name": "Murat Yener",
         "title": "Android GDE, Android Geek, GDG Istambul co-organizer",
         "company": "Intel Corporation",
@@ -212,7 +221,7 @@
     },
     "7": {
         "id": 7,
-        "featured": false,
+        "featured": true,
         "name": "Justin Ribeiro",
         "title": "GDE and GDG Mentor in North America Pacific Region",
         "company": "Stickman Ventures, Inc.",
@@ -540,69 +549,85 @@
     "17": {
         "id": 17,
         "featured": false,
-        "name": "Rick G",
-        "title": "Free Code Camp organizer",
-        "company": "...",
-        "companyLogo": "",
+        "name": "Rick Gomez",
+        "title": "Tech Consultant",
+        "company": "Geekwise Academy, Edit LLC",
+        "companyLogo": "/images/logos/bitwise.svg",
         "country": "",
-        "photoUrl": "",
-        "shortBio": "...",
-        "bio": "...",
+        "photoUrl": "/images/people/rick_gomez.jpg",
+        "shortBio": "Web developer, tech instructor, & tech consultant at Geekwise Academy",
+        "bio": "Web developer, tech instructor, & tech consultant at Geekwise Academy",
         "tags": [
             "Maps",
             "Free Code Camp",
             "Cloud",
             "Web"
-        ],
-        "badges": [
-        ],
-        "socials": [
-        ]
-    },
-    "18": {
-        "id": 18,
-        "featured": false,
-        "name": "Michael Chrisco",
-        "title": "Free Code Camp co-organizer",
-        "company": "...",
-        "companyLogo": "",
-        "country": "",
-        "photoUrl": "",
-        "shortBio": "...",
-        "bio": "...",
-        "tags": [
-            "Maps",
-            "Free Code Camp",
-            "Cloud",
-            "Web"
-        ],
-        "badges": [
-        ],
-        "socials": [
-        ]
-    },
-    "19": {
-        "id": 19,
-        "featured": false,
-        "name": "Fresno Ideaworks fellows",
-        "title": "Build and Battle facilitators",
-        "company": "Fresno Ideaworks",
-        "companyLogo": "/images/logos/ideaworks-logo-invert.png",
-        "country": "",
-        "photoUrl": "",
-        "shortBio": "...",
-        "bio": "...",
-        "tags": [
-            "Maker Space",
-            "IoT"
         ],
         "badges": [
         ],
         "socials": [
           {
-            "icon": "website",
-            "link": "//fresnoideaworks.org/",
-            "name": "website"
+            "icon": "facebook",
+            "link": "//www.facebook.com/rickagz",
+            "name": "Facebook"
+          },
+          {
+            "icon": "linkedin",
+            "link": "//www.linkedin.com/in/rickagz",
+            "name": "Linkedin"
+          }
+        ]
+    },
+    "19": {
+        "id": 19,
+        "featured": false,
+        "name": "Joshua Houser",
+        "title": "Robot dude",
+        "company": "Fresno Ideaworks, Schneider Electric",
+        "companyLogo": "/images/logos/ideaworks-logo-invert.png",
+        "country": "",
+        "photoUrl": "/images/people/joshua_houser.jpg",
+        "shortBio": "CAD Geek, Coffee addict and love playing in the dirt and on the rocks",
+        "bio": "Founding member of Fresno Ideaworks, served roles in pushing brooms, opening doors, giant CNC programming, welding, community projects and outreach. One of the main geeks involved in Super Sumo Saturdays, helping folks put together and program their first Sumo Bot. Guilty for the creation of \"Smiley\", the somewhat erratic, pushy sumo bot. Also, a long time mentor for area FIRST Robotics teams, regional Judge Advisor for the Central Valley FIRST Robotics Competition and FLL Judge for the past 4 years. Also 20 years at Schneider Electric.",
+        "tags": [
+            "Maker Space",
+            "CAD",
+            "Robotics"
+        ],
+        "badges": [
+        ],
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "//twitter.com/pelcojosh",
+            "name": "Twitter"
+          }
+        ]
+    },
+    "20": {
+        "id": 20,
+        "featured": false,
+        "name": "Andrew Runner",
+        "title": "Blacksmith Instructor",
+        "company": "Fresno Ideaworks",
+        "companyLogo": "/images/logos/ideaworks-logo-invert.png",
+        "country": "",
+        "photoUrl": "/images/people/andrew_runner.jpg",
+        "shortBio": "Resident Smith for Fresno Ideaworks and also a member of the Outreach Team. Andrew brings enthusiasm mixed with experience to every department he volunteers in.",
+        "bio": "Resident Smith for Fresno Ideaworks and also a member of the Outreach Team. Andrew brings enthusiasm mixed with experience to every department he volunteers in.",
+        "tags": [
+            "Maker Space",
+            "Arduino",
+            "Robotics",
+            "Smith"
+        ],
+        "badges": [
+        ],
+        "socials": [
+          {
+            "icon": "facebook",
+            "link": "//www.facebook.com/drewdaro",
+            "name": "Facebook"
           }
         ]
     }
