@@ -231,14 +231,15 @@
     },
     "125": {
         "id": 125,
-        "title": "TBD",
-        "description": "Stay tuned",
+        "title": "Javascript + Firebase game programming... and how I became a better Dad",
+        "description": "The Firebase Database lets you synchronize data between clients in real time, which is perfect for building multi-player games. In this talk I will describe a collaborative web-based sci-fi game I built using Firebase, what I learned along the way and how it made me a better dad.",
         "speakers": [
             5
         ],
         "complexity": "Beginner",
         "tags": [
-            "Cloud Track",
+            "Javascript",
+            "Game Development",
             "Firebase"
         ]
     },
