@@ -469,14 +469,14 @@
     "15": {
         "id": 15,
         "featured": false,
-        "name": "Jim Hutton",
-        "title": "Software Engineer, GDG leader",
-        "company": "",
-        "companyLogo": "/images/logos/GDG_Modesto.svg",
+        "name": "Jim Hutson",
+        "title": "Principal Software Engineer",
+        "company": "IDG Communications",
+        "companyLogo": "/images/logos/IDG.png",
         "country": "",
-        "photoUrl": "/images/people/jim_hutton.jpg",
-        "shortBio": "...",
-        "bio": "...",
+        "photoUrl": "/images/people/jim_hutson.jpg",
+        "shortBio": "Zen-like tech solutions. And a little Tai Chi.",
+        "bio": "Besides being a principal software engineer, Jim is also organizer of the GDG Modesto meetup",
         "tags": [
             "AMP",
             "Web"
@@ -488,6 +488,11 @@
             "icon": "gplus",
             "link": "//plus.google.com/+JimHutson",
             "name": "Google+"
+          },
+          {
+            "icon": "linkedin",
+            "link": "//www.linkedin.com/in/jim-hutson-4ab06645",
+            "name": "Linkedin"
           }
         ]
     },
