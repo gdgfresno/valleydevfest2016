@@ -29,32 +29,48 @@
     ]
   },
   {
+    "title": "silver-sponsors",
+    "logos": [
+      {
+        "name": "Microsoft",
+        "url": "//www.microsoft.com/",
+        "logoUrl": "../images/logos/microsoft.svg",
+        "width": 170
+      }
+    ]
+  },
+  {
     "title": "general-partner",
     "logos": [
       {
         "name": "GDG Visalia",
         "url": "//www.meetup.com/GDG-Visalia-Google-Developer-Group/",
-        "logoUrl": "../images/logos/GDG_Visalia.svg"
+        "logoUrl": "../images/logos/GDG_Visalia.svg",
+        "width": 170
       },
       {
         "name": "GDG Oakdale",
         "url": "//www.meetup.com/GDG-Oakdale/",
-        "logoUrl": "../images/logos/GDG_Oakdale.svg"
+        "logoUrl": "../images/logos/GDG_Oakdale.svg",
+        "width": 170
       },
       {
         "name": "GDG Modesto",
         "url": "//www.meetup.com/GDG-Modesto-Google-Developer-Group/",
-        "logoUrl": "../images/logos/GDG_Modesto.svg"
+        "logoUrl": "../images/logos/GDG_Modesto.svg",
+        "width": 170
       },
       {
         "name": "Bitwise",
         "url": "//bitwiseindustries.com/",
-        "logoUrl": "../images/logos/bitwise.png"
+        "logoUrl": "../images/logos/bitwise.png",
+        "width": 170
       },
       {
         "name": "Ideaworks",
         "url": "//fresnoideaworks.org/",
-        "logoUrl": "../images/logos/ideaworks-logo-invert.png"
+        "logoUrl": "../images/logos/ideaworks-logo-invert.png",
+        "width": 170
       }
     ]
   }
