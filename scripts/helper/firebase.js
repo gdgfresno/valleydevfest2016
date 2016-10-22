@@ -152,6 +152,7 @@ HOVERBOARD.Firebase = HOVERBOARD.Firebase || (function () {
         time: Date.now()
       }).then(function() {
         HOVERBOARD.Analytics.trackEvent('session', 'rating', ratingCategory, ratingValue);
+        HOVERBOARD.Elements.Template.$.toast.showMessage(ratingCategory + ' rating recorded');
       }.bind(this)).catch(function(error) {
         HOVERBOARD.Analytics.trackEvent('session', 'rating_failure', ratingCategory, ratingValue);
         console.error('Error writing rating to Firebase Database', error);
