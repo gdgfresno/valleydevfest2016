@@ -82,22 +82,6 @@
         "title": "TBD",
         "description": "."
     },
-    "110": {
-        "id": 110,
-        "title": "Build and Battle",
-        "description": "You will build a functioning Sumobot with an Arduino, ultrasonic sensor, and motors. Additional pre-regsitration required.",
-        "speakers": [
-            19,
-            20
-        ],
-        "complexity": "Beginner",
-        "tags": [
-            "Robotics",
-            "Arduino",
-            "Maker Space",
-            "Hacker Space"
-        ]
-    },
 
     "111": {
         "id": 111,
@@ -425,7 +409,7 @@
     "150": {
         "id": 150,
         "title": "Code Labs",
-        "description": "Interactive Google Maps code labs facilitated by Free Code Camp advocates. Bring your own laptop. Limited space is available.",
+        "description": "Interactive Google Maps code labs facilitated by Free Code Camp advocates. Bring your own laptop. Space is limited, first come first served basis.",
         "speakers": [
             17
         ],
@@ -435,6 +419,132 @@
             "Maps",
             "Cloud",
             "Web"
+        ]
+    },
+    "151": {
+        "id": 151,
+        "title": "Code Labs",
+        "description": "Interactive Google Maps code labs facilitated by Free Code Camp advocates. Bring your own laptop. Space is limited, first come first served basis.",
+        "speakers": [
+            17
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Code Labs",
+            "Maps",
+            "Cloud",
+            "Web"
+        ]
+    },
+    "152": {
+        "id": 152,
+        "title": "Code Labs",
+        "description": "Interactive Google Maps code labs facilitated by Free Code Camp advocates. Bring your own laptop. Space is limited, first come first served basis.",
+        "speakers": [
+            17
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Code Labs",
+            "Maps",
+            "Cloud",
+            "Web"
+        ]
+    },
+    "153": {
+        "id": 153,
+        "title": "Code Labs",
+        "description": "Interactive Google Maps code labs facilitated by Free Code Camp advocates. Bring your own laptop. Space is limited, first come first served basis.",
+        "speakers": [
+            17
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Code Labs",
+            "Maps",
+            "Cloud",
+            "Web"
+        ]
+    },
+
+    "160": {
+        "id": 160,
+        "title": "Build and Battle",
+        "description": "You will build a functioning Sumobot with an Arduino, ultrasonic sensor, and motors. Additional pre-regsitration required.",
+        "speakers": [
+            19,
+            20
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Robotics",
+            "Arduino",
+            "Maker Space",
+            "Hacker Space"
+        ]
+    },
+    "161": {
+        "id": 161,
+        "title": "Build and Battle",
+        "description": "You will build a functioning Sumobot with an Arduino, ultrasonic sensor, and motors. Additional pre-regsitration required.",
+        "speakers": [
+            19,
+            20
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Robotics",
+            "Arduino",
+            "Maker Space",
+            "Hacker Space"
+        ]
+    },
+    "162": {
+        "id": 162,
+        "title": "Build and Battle",
+        "description": "You will build a functioning Sumobot with an Arduino, ultrasonic sensor, and motors. Additional pre-regsitration required.",
+        "speakers": [
+            19,
+            20
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Robotics",
+            "Arduino",
+            "Maker Space",
+            "Hacker Space"
+        ]
+    },
+    "163": {
+        "id": 163,
+        "title": "Build and Battle",
+        "description": "You will build a functioning Sumobot with an Arduino, ultrasonic sensor, and motors. Additional pre-regsitration required.",
+        "speakers": [
+            19,
+            20
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Robotics",
+            "Arduino",
+            "Maker Space",
+            "Hacker Space"
+        ]
+    },
+    "164": {
+        "id": 164,
+        "title": "Build and Battle",
+        "description": "You will build a functioning Sumobot with an Arduino, ultrasonic sensor, and motors. Additional pre-regsitration required.",
+        "speakers": [
+            19,
+            20
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Robotics",
+            "Arduino",
+            "Maker Space",
+            "Hacker Space"
         ]
     },
 
