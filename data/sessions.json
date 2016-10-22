@@ -191,7 +191,8 @@
         "title": "Supercharging Firebase with Google Cloud",
         "description": "In this talk, we take a look at how you can use Firebase to build a real time application that interacts with virtual machines, big data, machine learning APIs, and more on Google Cloud Platform. Firebase allows you to build awesome real time apps quickly and easily. Google Cloud Platform lets you build powerful services that scale. Combining these two platforms gives you the power to build amazing experiences without worrying about infrastructure and operations. Join us as we show you step by step how we built our application in just a few days. You will walk away ready to build an amazing application with Firebase and Google Cloud Platform.",
         "speakers": [
-            4
+            4,
+            2
         ],
         "complexity": "Intermediate",
         "tags": [
@@ -207,8 +208,7 @@
         "title": "Magic in the Cloud with Node.js",
         "description": "Node.js makes building web applications and APIs easy – Google App Engine makes running node.js in production fun. Walk through deploying a Hello World app, using the gcloud npm module to talk to other Google Cloud services, and using the Cloud Vision API to analyze images.",
         "speakers": [
-            4,
-            2
+            4
         ],
         "complexity": "Intermediate",
         "tags": [
