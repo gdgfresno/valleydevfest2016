@@ -43,7 +43,8 @@
     "google-map": "GoogleWebComponents/google-map#^1.1.0",
     "polymer": "Polymer/polymer#^1.6.0",
     "time-elements": "github/time-elements#^0.6.0",
-    "paper-alert-dialog": "^1.0.10"
+    "paper-alert-dialog": "^1.0.10",
+    "iron-autogrow-textarea": "^1.0.14"
   },
   "devDependencies": {
     "web-component-tester": "Polymer/web-component-tester#^4.3.0"

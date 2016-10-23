@@ -1,5 +1,6 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html">
 
+<link rel="import" href="../../bower_components/iron-autogrow-textarea/iron-autogrow-textarea.html">
 <link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
 <link rel="import" href="../../bower_components/iron-dropdown/iron-dropdown-scroll-manager.html">
 
@@ -33,6 +34,10 @@
 
       paper-icon-item {
         cursor: pointer;
+      }
+
+      iron-autogrow-textarea {
+        width: 100%;
       }
     </style>
 
@@ -189,6 +194,9 @@
             </div>
           </div>
         </div>
+
+        <iron-autogrow-textarea bind-value="{{comment}}" rows="3" maxRows="10" placeholder="[[localize('enter-comment')]]"></iron-autogrow-textarea>
+        <paper-button class="session-comment" on-tap="_submitComment" raised>[[localize('submit-comment')]]</paper-button>
       </div>
 
       <template is="dom-if" if="{{session.speakers.length}}">
@@ -243,6 +251,10 @@
           session: {
             type: Object,
             observer: '_sessionChanged'
+          },
+          comment: {
+            type: String,
+            value: ""
           }
         },
 
@@ -299,10 +311,19 @@
             var ratingCategory = e.target.getAttribute('data-rating-category');
             var ratingValueStr = e.target.getAttribute('data-rating-value');
             var ratingValue = parseInt(ratingValueStr, 10);
-            HOVERBOARD.Firebase.castRating(this.session.id, ratingCategory, ratingValue);
+            HOVERBOARD.Firebase.submitRatingData(this.session.id, { category: ratingCategory, rating: ratingValue });
           }
           e.target.parentNode.parentNode.opened = false;
+        },
+
+        _submitComment: function (e) {
+          if (!this.comment)
+            return;
+          if (HOVERBOARD.Firebase.checkSignedInWithMessage()) {
+            HOVERBOARD.Firebase.submitRatingData(this.session.id, { comment: this.comment });
+          }
         }
+
       });
 
     }());

@@ -138,23 +138,21 @@ HOVERBOARD.Firebase = HOVERBOARD.Firebase || (function () {
       return false;
     }
 
-    var castRating = function(sessionId, ratingCategory, ratingValue) {
-      // HOVERBOARD.Elements.Template.$.toast.showMessage("The conference haven't started yet");
+    var submitRatingData = function(sessionId, ratingData) {
       // Add a new rating entry to the Firebase Database.
       var user = this.auth.currentUser;
-      this.ratingsRef.push({
-        session: sessionId,
-        category: ratingCategory,
-        rating: ratingValue,
-        name: user.displayName,
-        uid: user.uid,
-        email: user.email,
-        time: Date.now()
-      }).then(function() {
-        HOVERBOARD.Analytics.trackEvent('session', 'rating', ratingCategory, ratingValue);
-        HOVERBOARD.Elements.Template.$.toast.showMessage(ratingCategory + ' rating recorded');
+      var ratingPayload = ratingData;
+      ratingPayload.session = sessionId;
+      ratingPayload.name = user.displayName;
+      ratingPayload.session = sessionId;
+      ratingPayload.uid = user.uid;
+      ratingPayload.email = user.email;
+      ratingPayload.time = Date.now();
+      this.ratingsRef.push(ratingPayload).then(function() {
+        HOVERBOARD.Analytics.trackEvent('session', 'rating', sessionId);
+        HOVERBOARD.Elements.Template.$.toast.showMessage('Submission recorded');
       }.bind(this)).catch(function(error) {
-        HOVERBOARD.Analytics.trackEvent('session', 'rating_failure', ratingCategory, ratingValue);
+        HOVERBOARD.Analytics.trackEvent('session', 'rating_failure', 'writing', sessionId);
         console.error('Error writing rating to Firebase Database', error);
       });
     }
@@ -166,7 +164,7 @@ HOVERBOARD.Firebase = HOVERBOARD.Firebase || (function () {
       redirectedSignIn: redirectedSignIn,
       signOut : signOut,
       onAuthStateChanged : onAuthStateChanged,
-      castRating: castRating,
+      submitRatingData: submitRatingData,
       checkSignedIn : checkSignedIn,
       checkSignedInWithMessage : checkSignedInWithMessage
     };
