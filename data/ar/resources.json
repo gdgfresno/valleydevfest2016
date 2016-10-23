@@ -95,5 +95,8 @@
   "very-dissatisfied": "مستاء جدا",
   "sign-in": "تسجيل الدخول",
   "sign-out": "خروج",
-  "profile-pic": "الصوره الشخصيه"
+  "profile-pic": "الصوره الشخصيه",
+  "enter-comment": "إدخال تعليقات إضافية ثم اضغط تقديم",
+  "submit-comment": "إرسال تعليق",
+  "resources": "موارد"
 }

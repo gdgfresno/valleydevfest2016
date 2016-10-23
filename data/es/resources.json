@@ -95,5 +95,8 @@
   "very-dissatisfied": "Muy insatisfecho",
   "sign-in": "Registrarse",
   "sign-out": "Desconectar",
-  "profile-pic": "Foto de perfil"
+  "profile-pic": "Foto de perfil",
+  "enter-comment": "Introduzca comentarios adicionales a continuación, pulse enviar",
+  "submit-comment": "Enviar comentario",
+  "resources": "recursos"
 }
