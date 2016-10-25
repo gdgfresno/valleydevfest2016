@@ -180,15 +180,15 @@ HOVERBOARD.Firebase = HOVERBOARD.Firebase || (function () {
     }
 
     return {
-      initFirebase : initFirebase,
+      initFirebase: initFirebase,
       getProviderForProviderStr: getProviderForProviderStr,
-      signIn : signIn,
-      signInAnonymously : signInAnonymously,
+      signIn: signIn,
+      signInAnonymously: signInAnonymously,
       redirectedSignIn: redirectedSignIn,
-      signOut : signOut,
-      onAuthStateChanged : onAuthStateChanged,
+      signOut: signOut,
+      onAuthStateChanged: onAuthStateChanged,
       submitRatingData: submitRatingData,
-      checkSignedIn : checkSignedIn,
-      checkSignedInWithMessage : checkSignedInWithMessage
+      checkSignedIn: checkSignedIn,
+      checkSignedInWithMessage: checkSignedInWithMessage
     };
   }());
