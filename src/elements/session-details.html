@@ -258,6 +258,10 @@
           }
         },
 
+        ready: function () {
+          HOVERBOARD.Elements.Template.$.toast.showMessage("Plase rate your sessions on the details card, no sign-in required!");
+        },
+
         listeners: {
           'neon-animation-finish': '_onNeonAnimationFinish'
         },
