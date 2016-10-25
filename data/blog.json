@@ -25,5 +25,14 @@
     "secondaryColor": "#FF0000",
     "image": "/images/posts/level-3-outage-map-2016-10-21.png",
     "brief": "What's the worst that could happen right before the conference? How about you cannot buy the ticket? Modern civilization didn't collapse fortunately, read this for deatils and possible remedies and some geek food"
+  },
+  {
+    "id": "cardboard-qr-follow-up",
+    "title": "CardBoard QR code and stay tuned",
+    "posted": "2016-10-25",
+    "primaryColor": "#AAAA00",
+    "secondaryColor": "#AAAA00",
+    "image": "/images/posts/cardboard-qr-2016-10-25.png",
+    "brief": "If you threw out the cover of your cardboard swag, here is the QR code on it. Stay tuned for slide decks and resources, VR content, and please rate your sessions (no sign-in required)!"
   }
 ]
