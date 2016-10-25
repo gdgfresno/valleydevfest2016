@@ -17,6 +17,8 @@ HOVERBOARD.Firebase = HOVERBOARD.Firebase || (function () {
       this.auth.onAuthStateChanged(this.onAuthStateChanged.bind(this));
       this.provider = null;
       this.pendingCred = null;
+      this.isAnonymous = false;
+      this.anonymousUser = null;
     }
 
     var getProviderForProviderStr = function (providerStr) {
@@ -39,42 +41,59 @@ HOVERBOARD.Firebase = HOVERBOARD.Firebase || (function () {
       return null;
     }
 
+    var signInAnonymously = function() {
+      firebase.auth().signInAnonymously().catch(function(error) {
+        HOVERBOARD.Analytics.trackEvent('firebase', 'error_sign_in_anonymously', error.code + ': ' + error.message);
+        // Handle Errors here.
+        console.log(error.code + ': ' + error.message);
+        setTimeout(function() {
+          this.signInAnonymously();
+        }.bind(this), 5000);
+      }.bind(this));
+    }
+
     // Signs-in
     var signIn = function(providerId) {
       var provider = getProviderForProviderId(providerId);
-      var that = this;
       return this.auth.signInWithPopup(provider).catch(function(error) {
-
         // An error happened.
         if (error.code === 'auth/account-exists-with-different-credential') {
           HOVERBOARD.Analytics.trackEvent('firebase', 'sign_in_attempt_with_other_credential', providerId);
           // Step 2.
           // User's email already exists.
           // The pending GitHub credential.
-          that.pendingCred = error.credential;
+          this.pendingCred = error.credential;
           // The provider account's email address.
           var email = error.email;
           // Get registered providers for this email.
-          that.auth.fetchProvidersForEmail(email).then(function(providers) {
+          this.auth.fetchProvidersForEmail(email).then(function(providers) {
             // Step 3.
             if (providers[0] === 'password') {
               HOVERBOARD.Analytics.trackEvent('firebase', 'sign_in_attempt_with_email_password', 'notimplemented');
               HOVERBOARD.Elements.Template.$.toast.showMessage("Not yet implemented");
               // Asks the user his password.
-              /// TODO:
-              // ...
+              /// TODO: not implemented
               return;
             }
             // All the other cases are external providers.
-            that.provider = providers[0];
+            this.provider = providers[0];
             HOVERBOARD.Analytics.trackEvent('firebase', 'sign_in_prompting_for_redirect', providerId);
             HOVERBOARD.Elements.Template.openAuthRedirect();
             // ... redirectedSignIn
-          });
+          }.bind(this));
         }
-      }).then(function(userCred) {
+      }.bind(this)).then(function(userCred) {
+        // TODO: linking this way doesn't work. We'd need to link before signInWithPopup flow (https://firebase.google.com/docs/auth/web/anonymous-auth)
+        // But that works only for Google and Facebook seemengly.
+        // if (this.anonymousUser) {
+        //   this.anonymousUser.link(userCred).then(function(user) {
+        //     HOVERBOARD.Analytics.trackEvent('firebase', 'sign_in_anonymous_account_linked', providerId);
+        //   }, function(error) {
+        //     HOVERBOARD.Analytics.trackEvent('firebase', 'error_sign_in_anonymous_account_linking', providerId);
+        //   });
+        // }
         HOVERBOARD.Analytics.trackEvent('firebase', 'sign_in_worked_first_shot', userCred.user.uid, providerId);
-      });
+      }.bind(this));
     }
 
     var redirectedSignIn = function() {
@@ -82,7 +101,6 @@ HOVERBOARD.Firebase = HOVERBOARD.Firebase || (function () {
       // Sign in to provider. Note: browsers usually block popup triggered asynchronously,
       // so in real scenario you should ask the user to click on a "continue" button
       // that will trigger the signInWithPopup.
-      var that = this;
       HOVERBOARD.Analytics.trackEvent('firebase', 'sign_in_redirecting', this.provider);
       this.auth.signInWithPopup(provider).then(function(result) {
         // Remember that the user may have signed in with an account that has a different email
@@ -91,12 +109,11 @@ HOVERBOARD.Firebase = HOVERBOARD.Firebase || (function () {
         // Step 4b.
         // Link to credential.
         // As we have access to the pending credential, we can directly call the link method.
-        result.user.link(that.pendingCred).then(function() {
+        result.user.link(this.pendingCred).then(function() {
           // Account successfully linked to the existing Firebase user.
-          //goToApp();
-          HOVERBOARD.Analytics.trackEvent('firebase', 'sign_in_account_linked', that.provider);
-        });
-      });
+          HOVERBOARD.Analytics.trackEvent('firebase', 'sign_in_account_linked', this.provider);
+        }.bind(this));
+      }.bind(this));
     }
 
     // Signs-out
@@ -113,10 +130,15 @@ HOVERBOARD.Firebase = HOVERBOARD.Firebase || (function () {
 
     var onAuthStateChanged = function(user) {
       if (user) { // User is signed in!
-        HOVERBOARD.Analytics.trackEvent('firebase', 'signed_in', 'handler');
+        if (user.isAnonymous)
+          this.anonymousUser = user;
+        this.isAnonymous = user.isAnonymous;
+        HOVERBOARD.Analytics.trackEvent('firebase', user.isAnonymous ? 'signed_in_anonymously' : 'signed_in', 'handler');
         this.ratingsRef = this.database.ref('ratings');
-        HOVERBOARD.Elements.Template.adjustSignedIn(user);
+        HOVERBOARD.Elements.Template.adjustSignedIn(user.isAnonymous ? null : user);
       } else { // User is signed out!
+        this.isAnonymous = false;
+        this.anonymousUser = null;
         HOVERBOARD.Analytics.trackEvent('firebase', 'signed_out', 'handler');
         this.ratingsRef = null;
         HOVERBOARD.Elements.Template.adjustSignedIn(null);
@@ -161,6 +183,7 @@ HOVERBOARD.Firebase = HOVERBOARD.Firebase || (function () {
       initFirebase : initFirebase,
       getProviderForProviderStr: getProviderForProviderStr,
       signIn : signIn,
+      signInAnonymously : signInAnonymously,
       redirectedSignIn: redirectedSignIn,
       signOut : signOut,
       onAuthStateChanged : onAuthStateChanged,
