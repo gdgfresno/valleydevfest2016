@@ -25,6 +25,23 @@
         "description": "If you could take a 50% hit in real world performance and get a site that feels 50% faster, would you? Nobody cares how fast your site is. All your users care about is how fast your site feels. Going beyond the perceived perf theory, Paul is bringing a bunch of examples of things that employ clever tricks and psychology to turn things that should be slow into things that feel incredibly fast.",
         "image": "/images/backgrounds/opening.jpg",
         "location": "Auditorium (optional overflow to Hall)",
+        "resources": [
+            {
+                "type": "presentation",
+                "title": "slide deck @ Frontier Spring Conference",
+                "href": "https://fronteers.nl/congres/2016-spring/sessions/the-illusion-of-speed-by-paul-bakaus"
+            },
+            {
+                "type": "video",
+                "title": "Vimeo: The Illusion of Speed",
+                "href": "https://vimeo.com/163185249"
+            },
+            {
+                "type": "video",
+                "title": "Vimeo: The Illusion Of Motion",
+                "href": "https://vimeo.com/108331968"
+            }
+        ],
         "colspan": true,
         "speakers": [
             1
@@ -237,6 +254,23 @@
         "id": 131,
         "title": "Progressive Web Apps in the Wild",
         "description": "We'll look at the big picture related to Progressive Web Apps and take a look at a real world project. We'll see advanatges and disadvantages, and even touch technologies as NFC and Bluetooth LE.",
+        "resources": [
+            {
+                "type": "presentation",
+                "title": "slide deck @ DevFest 2016",
+                "href": "https://docs.google.com/presentation/d/1XWTYVCp0lBH7tQa6fpaoF2wCvaKV6DEArkq-FoBNjlg/edit#slide=id.p"
+            },
+            {
+                "type": "link",
+                "title": "valleydevfest.com source",
+                "href": "https://github.com/gdgfresno/valleydevfest/tree/develop"
+            },
+            {
+                "type": "link",
+                "title": "Bulldog Earth Day source",
+                "href": "https://github.com/bulldogearthday/booths"
+            }
+        ],
         "speakers": [
             11
         ],

@@ -39,6 +39,10 @@
       iron-autogrow-textarea {
         width: 100%;
       }
+
+      paper-button.action iron-icon {
+        min-width: 36px;
+      }
     </style>
 
     <paper-scroll-header-panel id="scrollHeaderPanel" no-reveal>
@@ -98,6 +102,26 @@
         <marked-element markdown="[[session.description]]">
           <div class="markdown-html"></div>
         </marked-element>
+
+        <div class="actions">
+          <template is="dom-repeat" items="[[session.resources]]" as="resource">
+            <a href$="[[resource.href]]" target="_blank" rel="noopener noreferrer">
+              <paper-button class="action">
+                <iron-icon icon="[[resource.type]]"></iron-icon>
+                [[resource.title]]
+              </paper-button>
+            </a>
+          </template>
+          <template is="dom-if" if="[[session.videoId]]">
+            <div on-tap="_openVideo">
+              <paper-button class="action">
+                <iron-icon icon="video"></iron-icon>
+                [[localize('view-video')]]
+              </paper-button>
+            </div>
+          </template>
+        </div>
+
       </div>
 
       <div class="sections-wrapper content">
