@@ -12,8 +12,10 @@ HOVERBOARD.Firebase = HOVERBOARD.Firebase || (function () {
       this.auth = firebase.auth();
       this.database = firebase.database();
       this.storage = firebase.storage();
+      //this.messaging = firebase.messaging();
       // Initiates Firebase auth and listen to auth state changes.
       this.ratingsRef = null;
+      //this.messagesRef = null;
       this.auth.onAuthStateChanged(this.onAuthStateChanged.bind(this));
       this.provider = null;
       this.pendingCred = null;
@@ -136,6 +138,20 @@ HOVERBOARD.Firebase = HOVERBOARD.Firebase || (function () {
         HOVERBOARD.Analytics.trackEvent('firebase', user.isAnonymous ? 'signed_in_anonymously' : 'signed_in', 'handler');
         this.ratingsRef = this.database.ref('ratings');
         HOVERBOARD.Elements.Template.adjustSignedIn(user.isAnonymous ? null : user);
+        /*
+        // Reference to the /messages/ database path.
+        this.messagesRef = this.database.ref('messages');
+        // Make sure we remove all previous listeners.
+        this.messagesRef.off();
+
+        // Loads the last 12 messages and listen for new ones.
+        var showMessage = function(data) {
+          var val = data.val();
+          HOVERBOARD.Elements.Template.$.toast.showMessage(val.text);
+          //this.displayMessage(val.text);
+        }.bind(this);
+        this.messagesRef.limitToLast(2).on('child_added', showMessage);
+        */
       } else { // User is signed out!
         this.isAnonymous = false;
         this.anonymousUser = null;
@@ -144,7 +160,11 @@ HOVERBOARD.Firebase = HOVERBOARD.Firebase || (function () {
         HOVERBOARD.Elements.Template.adjustSignedIn(null);
       }
     }
-
+/*
+    var broadcast = function(text) {
+      this.messagesRef.push({text: text});
+    }
+*/
     // Returns true if user is signed-in. Otherwise false.
     var checkSignedIn = function() {
       return this.auth ? this.auth.currentUser : null;
@@ -189,6 +209,7 @@ HOVERBOARD.Firebase = HOVERBOARD.Firebase || (function () {
       onAuthStateChanged: onAuthStateChanged,
       submitRatingData: submitRatingData,
       checkSignedIn: checkSignedIn,
-      checkSignedInWithMessage: checkSignedInWithMessage
+      checkSignedInWithMessage: checkSignedInWithMessage//,
+      //broadcast: broadcast
     };
   }());

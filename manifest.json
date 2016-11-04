@@ -41,5 +41,6 @@
   "start_url": "./?utm_source=web_app_manifest",
   "display": "standalone",
   "background_color": "#F57C00",
-  "theme_color": "#F57C00"
+  "theme_color": "#F57C00",
+  "gcm_sender_id": "103953800507"
 }

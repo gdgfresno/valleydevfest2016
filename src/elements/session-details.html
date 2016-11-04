@@ -348,6 +348,7 @@
           if (!this.comment)
             return;
           if (HOVERBOARD.Firebase.checkSignedInWithMessage()) {
+            //HOVERBOARD.Firebase.broadcast(this.comment);
             HOVERBOARD.Firebase.submitRatingData(this.session.id, { comment: this.comment });
           }
         }
